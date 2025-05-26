@@ -1,11 +1,21 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Events from '../components/Events.astro'
+import Card from '../components/shared/Card.astro'
+import Welcome from '../components/Welcome.astro'
+import { events, carouselEvents } from '../data/constans_events'
+import Layout from '../layouts/Layout.astro'
 ---
 
 <Layout>
-	<Welcome />
+  <main>
+    <Welcome />
+    <section class='container mx-auto px-4'>
+      <p class='font-bold text-4xl text-center'>Our Fairs</p>
+      <Card events={events} />
+    </section>
+    <section class='mt-20'>
+      <p class='font-bold text-4xl text-center'>Global Fairs</p>
+      <Events events={carouselEvents} isLeftToRight={true} />
+    </section>
+  </main>
 </Layout>

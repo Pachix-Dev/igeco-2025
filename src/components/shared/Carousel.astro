@@ -1,0 +1,93 @@
+---
+interface Props {
+  images: Array<{
+    src: string
+    alt: string
+  }>
+}
+
+const { images } = Astro.props
+---
+
+<div class='carousel' id='carousel'>
+  {
+    images.map((img, idx) => (
+      <img src={img.src} alt={img.alt} class={idx === 0 ? 'active' : ''} />
+    ))
+  }
+  <div class='carousel-controls'>
+    <button class='carousel-btn' id='prev'>&#8592;</button>
+    <button class='carousel-btn' id='next'>&#8594;</button>
+  </div>
+</div>
+
+<style>
+  .carousel {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+  .carousel img {
+    width: 100%;
+    display: none;
+    transition: opacity 0.5s;
+  }
+  .carousel img.active {
+    display: block;
+    opacity: 1;
+  }
+  .carousel-controls {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+  .carousel-btn {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0 1rem;
+    border-radius: 50%;
+  }
+</style>
+
+<script type='module' is:inline>
+  const images = document.querySelectorAll('#carousel img')
+  let current = 0
+  let interval = setInterval(nextImage, 3000)
+
+  function showImage(idx) {
+    images.forEach((img, i) => {
+      img.classList.toggle('active', i === idx)
+    })
+  }
+
+  function nextImage() {
+    current = (current + 1) % images.length
+    showImage(current)
+  }
+
+  function prevImage() {
+    current = (current - 1 + images.length) % images.length
+    showImage(current)
+  }
+
+  document.getElementById('next').onclick = () => {
+    nextImage()
+    resetInterval()
+  }
+  document.getElementById('prev').onclick = () => {
+    prevImage()
+    resetInterval()
+  }
+
+  function resetInterval() {
+    clearInterval(interval)
+    interval = setInterval(nextImage, 3000)
+  }
+</script>
