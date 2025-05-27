@@ -7,7 +7,7 @@ export const carouselhome = [
         },
         {   
             image: '/img/amof_2025_bg.webp', 
-            image_en: '/img/amof_2025_bg.webp',
+            image_en: '/img/amof_bf_2025_eng.jpg',
             alt: 'AMOF 2026', 
             link: 'https://amofexpo.igeco.mx' 
         },
