@@ -1,0 +1,117 @@
+---
+import { t, changeLanguage } from "i18next";
+import Layout from "../layouts/Layout.astro";
+
+changeLanguage("es");
+---
+
+<Layout>
+  <main>
+    <section class='container mx-auto px-4 py-8'>
+      <i>Deutsche Messe</i>
+      <h1 class='text-5xl font-bold mb-4'>{t('AboutUs.title')}</h1>
+      <p class='text-xl mb-6' set:html={t('AboutUs.text')} />
+
+      <div class='grid md:grid-cols-3 gap-8 justify-center items-center'>
+        <div>
+          <img
+            src='/img/BERND-ICON.webp'
+            alt='Bernd Icon'
+            class='w-56 h-56 rounded-full shadow-lg object-cover mx-auto'
+          />
+          <p class='text-center font-semibold mt-3'>
+            <strong class='text-xl'>Bernd Rohde</strong><br /> CEO y Miembro del
+            Consejo de Administración de Italian German Exhibition Company Mexico,
+            USA and Canada.
+          </p>
+        </div>
+        <div>
+          <img
+            src='/img/AZUL-ICON.webp'
+            alt='Bernd Icon'
+            class='w-56 h-56 rounded-full shadow-lg object-cover mx-auto'
+          />
+          <p class='text-center font-semibold mt-3'>
+            <strong class='text-xl'>Azul Ogazón</strong><br /> Deputy Manager IGECO
+            Mexico
+          </p>
+        </div>
+        <div>
+          <img
+            src='/img/manuelferreira.webp'
+            alt='Bernd Icon'
+            class='w-56 h-56 rounded-full shadow-lg object-cover mx-auto'
+          />
+          <p class='text-center font-semibold mt-3'>
+            <strong class='text-xl'>Manuel Ferreira</strong><br /> CFO IGECO Mexico
+          </p>
+        </div>
+        <div>
+          <img
+            src='/img/eder.jpg'
+            alt='Bernd Icon'
+            class='w-56 h-56 rounded-full shadow-lg object-cover mx-auto'
+          />
+          <p class='text-center font-semibold mt-3'>
+            <strong class='text-xl'>Eder Rangel</strong><br /> Project Manager Industrial
+            Transformation Mexico y AMERICAS’ mobility of the future.
+          </p>
+        </div>
+        <div>
+          <img
+            src='/img/laura.webp'
+            alt='Bernd Icon'
+            class='w-56 h-56 rounded-full shadow-lg object-cover mx-auto'
+          />
+          <p class='text-center font-semibold mt-3'>
+            <strong class='text-xl'>Laura Amaro</strong><br /> Project Manager Ecomondo
+            Mexico
+          </p>
+        </div>
+        <div>
+          <img
+            src='/img/samuel-ramirez.webp'
+            alt='Bernd Icon'
+            class='w-56 h-56 rounded-full shadow-lg object-cover mx-auto'
+          />
+          <p class='text-center font-semibold mt-3'>
+            <strong class='text-xl'>Samuel Ramírez</strong>,<br /> Project Manager
+            RE+ Mexico
+          </p>
+        </div>
+        <div>
+          <img
+            src='/img/RODO-ICON.webp'
+            alt='Bernd Icon'
+            class='w-56 h-56 rounded-full shadow-lg object-cover mx-auto'
+          />
+          <p class='text-center font-semibold mt-3'>
+            <strong class='text-xl'>Rodolfo Carrizales</strong><br /> Director de
+            Finanzas y Recursos Humanos
+          </p>
+        </div>
+        <div>
+          <img
+            src='/img/lilianmalanco.jpg'
+            alt='Bernd Icon'
+            class='w-56 h-56 rounded-full shadow-lg object-cover mx-auto'
+          />
+          <p class='text-center font-semibold mt-3'>
+            <strong class='text-xl'>Lilian Malanco</strong><br /> Directora de Relaciones
+            Públicas
+          </p>
+        </div>
+        <div>
+          <img
+            src='/img/damian-arias.webp'
+            alt='Bernd Icon'
+            class='w-56 h-56 rounded-full shadow-lg object-cover mx-auto'
+          />
+          <p class='text-center font-semibold mt-3'>
+            <strong class='text-xl'>Damián Arias</strong><br /> Director de Operaciones
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>

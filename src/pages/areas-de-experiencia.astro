@@ -1,0 +1,589 @@
+---
+import { t, changeLanguage } from "i18next";
+import Layout from "../layouts/Layout.astro";
+
+changeLanguage("es");
+---
+
+<Layout>
+  <main>
+    <section class='container mx-auto px-4 py-8'>
+      <div class='grid md:grid-cols-2 gap-8'>
+        <img
+          src='/img/deutsche-messe-areas.webp'
+          alt='deutsche-messe-areas'
+          class='rounded-2xl w-full'
+        />
+        <div>
+          <i>DEUTSCHE MESSE </i>
+          <p class='font-bold text-4xl'>{t('AreasExpertise.title')}</p>
+          <p class='mt-5 text-xl'>
+            {t('AreasExpertise.text')}
+          </p>
+        </div>
+      </div>
+      <div class='mt-20 grid md:grid-cols-2 gap-8'>
+        <div>
+          <img
+            src='/img/areas2.webp'
+            alt='areas-de-experiencia-1'
+            class='rounded-2xl w-full'
+          />
+          <p class='mt-5 text-4xl font-bold'>
+            {t('AreasExpertise.title_2')}
+          </p>
+          <p set:html={t('AreasExpertise.text_2')} />
+          <ul class='list-disc pl-5 mt-5'>
+            <li>
+              <a
+                href='https://www.hannovermesse.de/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                HANNOVER MESSE
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.surface-technology-germany.de/en/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                SurfaceTechnology GERMANY
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.parts2clean.de/en/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                parts2clean
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://hannovermesseusa.com/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Hannover Messe USA
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.ptc-asia.com/index.php?lang=en'
+                target='_blank'
+                rel='noreferrer'
+              >
+                PTC Asia
+              </a>
+            </li>
+            <li>
+              <a
+                href='http://win-automation.com/en'
+                target='_blank'
+                rel='noreferrer'
+              >
+                WIN EURASIA
+              </a>
+            </li>
+            <li>
+              <a
+                href='http://www.industrial-automation-beijing.com/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Industrial Automation BEIJING
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <img
+            src='/img/energy.webp'
+            alt='areas-de-experiencia-1'
+            class='rounded-2xl w-full'
+          />
+          <p class='mt-5 text-4xl font-bold'>
+            {t('AreasExpertise.title_3')}
+          </p>
+          <p set:html={t('AreasExpertise.text_3')} />
+          <ul class='list-disc pl-5 mt-5'>
+            <li>
+              <a
+                href='https://www.hannovermesse.de/de/ausstellung/ausstellungsbereiche/energy-solutions/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Energy Solutions (HANNOVER MESSE, Hannover, Alemania)
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://electricitytransformation.ca/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Electricity Transformation Canada
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.hfmexico.mx/solarpowermexico/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Solar Power Mexico (México)
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.icci.com.tr/en/icci-home/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                ICCI (Turquía)
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <img
+            src='/img/Logistica.webp'
+            alt='areas-de-experiencia-1'
+            class='rounded-2xl w-full'
+          />
+          <p class='mt-5 text-4xl font-bold'>
+            {t('AreasExpertise.title_4')}
+          </p>
+          <p set:html={t('AreasExpertise.text_4')} />
+          <ul class='list-disc pl-5 mt-5'>
+            <li>
+              <a
+                href='https://www.hannovermesse.de/en/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                HANNOVER MESSE
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.cemat.com.au/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                CeMAT AUSTRALIA
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.cemat-asia.com/index.php?lang=en'
+                target='_blank'
+                rel='noreferrer'
+              >
+                CeMAT ASIA
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.cemat-russia.ru/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                CeMAT RUSSIA
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.cemat-russia.ru/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                CeMAT EURASIA
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://intralogistica-italia.com/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                INTRALOGISTICA ITALIA
+              </a>
+            </li>
+            <li>
+              <a href='https://chinalet.cn/' target='_blank' rel='noreferrer'>
+                LET – a CeMAT ASIA event
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.cemat-russia.ru/exhibition/thematics/transpack/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                TRANSPACK RUSSIA
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <img
+            src='/img/recubrimientoPiso.webp'
+            alt='areas-de-experiencia-1'
+            class='rounded-2xl w-full'
+          />
+          <p class='mt-5 text-4xl font-bold'>
+            {t('AreasExpertise.title_5')}
+          </p>
+          <p set:html={t('AreasExpertise.text_5')} />
+          <ul class='list-disc pl-5 mt-5'>
+            <li>
+              <a
+                href='https://www.domotexasiachinafloor.com/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                DOMOTEX asia/CHINAFLOOR (China)
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.domotexturkey.com/en'
+                target='_blank'
+                rel='noreferrer'
+              >
+                DOMOTEX Turkey (Turkey)
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://domotexusa.com/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                DOMOTEX USA (USA)
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <img
+            src='/img/transformacionMadera.webp'
+            alt='areas-de-experiencia-1'
+            class='rounded-2xl w-full'
+          />
+          <p class='mt-5 text-4xl font-bold'>
+            {t('AreasExpertise.title_6')}
+          </p>
+          <p set:html={t('AreasExpertise.text_6')} />
+          <ul class='list-disc pl-5 mt-5'>
+            <li>
+              <a
+                href='https://www.hfmexico.mx/MEMIndustrial/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                MEM INDUSTRIAL
+              </a>
+            </li>
+            <li>
+              <a
+                href='http://tecnomueble.com.mx/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Tecno Mueble
+              </a>
+            </li>
+            <li>
+              <a
+                href='http://www.ligna-conference.com/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                LIGNA.Conference, China
+              </a>
+            </li>
+            <li>
+              <a href='https://www.ifmac.net/' target='_blank' rel='noreferrer'>
+                IFMAC
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <img
+            src='/img/security.webp'
+            alt='areas-de-experiencia-1'
+            class='rounded-2xl w-full'
+          />
+          <p class='mt-5 text-4xl font-bold'>
+            {t('AreasExpertise.title_7')}
+          </p>
+          <p set:html={t('AreasExpertise.text_7')} />
+          <ul class='list-disc pl-5 mt-5'>
+            <li>
+              <a
+                href='https://www.interschutz.de/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                INTERSCHUTZ Hannover
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.afacconference.com.au/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                AFAC Australia
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.reasonline.it/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                REAS Italy
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.interschutz.de/de/ueber-uns/interschutz-events-worldwide/china-international-emergency-management-exhibition/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                CEFE China
+              </a>
+            </li>
+            <li>
+              <a
+                href='http://hfusa.com/interschutzusa/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                INTERSCHUTZ USA
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <img
+            src='/img/digitalizacion.webp'
+            alt='areas-de-experiencia-1'
+            class='rounded-2xl w-full'
+          />
+          <p class='mt-5 text-4xl font-bold'>
+            {t('AreasExpertise.title_8')}
+          </p>
+          <p set:html={t('AreasExpertise.text_8')} />
+          <ul class='list-disc pl-5 mt-5'>
+            <li>
+              <a
+                href='https://www.messe.de/en/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                TWENTY2X
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://cebitasean.com/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                CEBIT ASEAN Thailand
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.smb-digital.com.au/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                CEBIT AUSTRALIA
+              </a>
+            </li>
+            <li>
+              <a
+                href='http://internetplus-expo.com/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Internet+ powered by CEBIT
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <img
+            src='/img/automotriz.webp'
+            alt='areas-de-experiencia-1'
+            class='rounded-2xl w-full'
+          />
+          <p class='mt-5 text-4xl font-bold'>
+            {t('AreasExpertise.title_9')}
+          </p>
+          <p set:html={t('AreasExpertise.text_9')} />
+          <ul class='list-disc pl-5 mt-5'>
+            <li>
+              <a href='https://nacvshow.com/' target='_blank' rel='noreferrer'>
+                North American Commercial Vehicle Show
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.truckworld.ca/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Truck World
+              </a>
+            </li>
+            <li>
+              <a href='https://etyl.mx/en/' target='_blank' rel='noreferrer'>
+                Expo Transporte y Logística
+              </a>
+            </li>
+            <li>
+              <a
+                href='http://www.ccvs.asia/en/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                China Commercial Vehicles Show
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.messe.de/de/messen/cdms-chengdu-motor-show.xhtml'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Chengdu Motor Show
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.messe.de/de/messen/whms-wuhan-motor-show.xhtml'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Wuhan Motor Show
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.iaa-mobility.com/en'
+                target='_blank'
+                rel='noreferrer'
+              >
+                IAA Commercial Vehicles
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <img
+            src='/img/metal.webp'
+            alt='areas-de-experiencia-1'
+            class='rounded-2xl w-full'
+          />
+          <p class='mt-5 text-4xl font-bold'>
+            {t('AreasExpertise.title_10')}
+          </p>
+          <p set:html={t('AreasExpertise.text_10')} />
+          <ul class='list-disc pl-5 mt-5'>
+            <li>
+              <a href='https://nacvshow.com/' target='_blank' rel='noreferrer'>
+                North American Commercial Vehicle Show
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.truckworld.ca/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Truck World
+              </a>
+            </li>
+            <li>
+              <a href='https://etyl.mx/en/' target='_blank' rel='noreferrer'>
+                Expo Transporte y Logística
+              </a>
+            </li>
+            <li>
+              <a
+                href='http://www.ccvs.asia/en/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                China Commercial Vehicles Show
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.messe.de/de/messen/cdms-chengdu-motor-show.xhtml'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Chengdu Motor Show
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.messe.de/de/messen/whms-wuhan-motor-show.xhtml'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Wuhan Motor Show
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.iaa-mobility.com/en'
+                target='_blank'
+                rel='noreferrer'
+              >
+                IAA Commercial Vehicles
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <img
+            src='/img/didacta.webp'
+            alt='areas-de-experiencia-1'
+            class='rounded-2xl w-full'
+          />
+          <p class='mt-5 text-4xl font-bold'>
+            {t('AreasExpertise.title_11')}
+          </p>
+          <p set:html={t('AreasExpertise.text_11')} />
+          <ul class='list-disc pl-5 mt-5'>
+            <li>
+              <a
+                href='https://www.messe.de/en/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                didacta-hannover.de
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>

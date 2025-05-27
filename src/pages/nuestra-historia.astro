@@ -1,0 +1,62 @@
+---
+import { t, changeLanguage } from "i18next";
+import Layout from "../layouts/Layout.astro";
+
+changeLanguage("es");
+---
+
+<Layout>
+  <main>
+    <section class='container mx-auto px-4 py-8'>
+      <div class='grid md:flex items-center gap-5'>
+        <img
+          src='/img/Exportmesse1947.webp'
+          alt='Deutsche Messe'
+          class='w-96 rounded-lg shadow-lg'
+        />
+        <div>
+          <i>Deutsche Messe</i>
+          <h1 class='text-5xl font-bold mb-4'>{t('history.title')}</h1>
+          <p class='mb-6 text-xl' set:html={t('history.text_history')} />
+        </div>
+      </div>
+      <p class='my-6 text-xl'>
+        {t('history.text_history2')}
+      </p>
+
+      <div class='mt-10 grid grid-cols-2 gap-8'>
+        <div>
+          <img
+            src='/img/event.webp'
+            alt='Deutsche Messe'
+            class='w-full h-96 rounded-lg shadow-lg object-cover'
+          />
+
+          <i class='mt-5'>{t('AboutIgeco.title')}</i>
+          <h1 class='text-5xl font-bold mb-4'>ITALIAN EXHIBITION GROUP</h1>
+          <p class='mb-6 text-xl'>{t('AboutIgeco.text_igeco')}</p>
+        </div>
+        <div>
+          <img
+            src='/img/deutsche-messe.webp'
+            alt='Deutsche Messe'
+            class='w-full h-96 rounded-lg shadow-lg object-cover'
+          />
+
+          <i class='mt-5'>{t('AboutIgeco.title')}</i>
+          <h1 class='text-5xl font-bold mb-4'>DEUTSCHE MESSE</h1>
+          <p class='mb-6 text-xl'>{t('AboutIgeco.text_deutsche')}</p>
+          <p>{t('AboutIgeco.text_img')}</p>
+        </div>
+      </div>
+
+      <p class='mt-10 text-5xl font-bold mb-4'>
+        ITALIAN GERMAN EXHIBITION COMPANY MÉXICO
+      </p>
+      <p set:html={t('AboutIgeco.text_igeco_2')} class='text-xl' />
+      <p class='mt-5 text-xl'>
+        {t('AboutIgeco.text_igeco_3')}
+      </p>
+    </section>
+  </main>
+</Layout>

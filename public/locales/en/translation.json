@@ -32,7 +32,17 @@
         "viveelvino": "June 7 - 8, 2025 <br> Distrito León MX <br> (Instalaciones de la Feria de León)<br><br>Beverage and related products industry",
         "electromovilidad": "October 6  2023<br>Electromobility and semiconductors",
         "nearshoring": "October 5 2023<br>Challenges and opportunities for Guanajuato",
-        "coming-soon":"Coming soon"
+        "coming-soon":"Coming soon",
+        "title_testimonial": "We are a meeting point for key stakeholders",
+        "title_2": "OUR EVENTS",
+        "title_3": "GLOBAL FAIRS",
+        "title_4": "Our Professional Buyers",
+        "testimonial_1": "Wolfgang Niedermark, Member of the Executive Board of the Federation of German Industries (BDI)",
+        "testimonial_1_description": "“Digital transformation, driven by artificial intelligence, and the challenges of climate change are the big issues of our time. ITM is the ideal scenario to showcase the technologies that are already leading change in the industry.”",
+        "testimonial_2": "Jorge Islas, Undersecretary for Energy Planning and Transition, Ministry of Energy (SENER)",
+        "testimonial_2_description": "“Re+ and Ecomondo Mexico are events of great importance for the development of renewable energy in Mexico and the entire Latin American region.”",
+        "testimonial_3": "Lucien Pinto, President and CEO, Ford Mexico, Central America and the Caribbean.",
+        "testimonial_3_description": "“I was honored to participate in Industrial Transformation Mexico. It was a pleasure to join the conversation about how cities are evolving and how we must adapt the way we move to address the challenges this brings.”"
     },
     "history": {
         "title": "History",
@@ -53,7 +63,7 @@
     },
     "AboutUs": {
         "title": "About us",
-        "text": "IGECO, Italian German Exhibition Company is a joint venture between Italian Exhibition Group SpA and Deutsche Messe AG, a German government-owned company, leader in the organization of specialized trade fairs in the capital goods, human resources and consumer goods sectors.<br /><br /> Our portfolio of events includes the leading trade fairs in their respective sectors, such as Hannover Messe (Industry 4.0), IAA (transportation) and Agritetechnica (agribusiness), among others.<br /><br /> Italian German Exhibition Company Mexico was founded in Mexico in 2016. Its mission is to contribute to the economic development of companies through the organization of fairs and platforms that promote B2B business, with a focus on results, quality and excellence.<br /><br /> Its vision is to become the leading company in Latin America in the organization of fairs and B2B business platforms."
+        "text": "IGECO Mexico es una subsidiaria de Deutsche Messe AG, empresa del gobierno alemán líder en la organización de ferias especializadas en los sectores de bienes de capital, recursos humanos y bienes de consumo. Se fundó en México en 2016. Its mission is to contribute to the economic development of companies through the organization of fairs and platforms that promote B2B business, with a focus on results, quality and excellence.<br /><br /> Our portfolio of events includes the leading trade fairs in their respective sectors, such as Hannover Messe (Industry 4.0), IAA (transportation) and Agritetechnica (agribusiness), among others.<br /><br /> IGECO Mexico creates strategic spaces where innovation, technology and sustainability converge to transform industry and generate new growth opportunities."
     },
     "AreasExpertise": {
         "title": "Areas of Expertise",

@@ -1,11 +1,7 @@
 ---
 import Carousel from './shared/Carousel.astro'
 
-const images = [
-  { src: '/img/banner_ecomondo_2026.webp', alt: 'ECOMONDO 2026' },
-  { src: '/img/amof_2025_bg.webp', alt: 'AMOF 2026' },
-  { src: '/img/replusbg_eng.webp', alt: 'REPLUS 2026' },
-]
+import { carouselhome } from '../data/constans_carousel'
 ---
 
 <section class='container mx-auto px-4'>
@@ -16,7 +12,7 @@ const images = [
     width='150'
   />
 
-  <Carousel images={images} />
+  <Carousel images={carouselhome} />
 
   <p class='mt-10 text-3xl font-bold'>IGECO Mexico</p>
   <p class='my-5'>
