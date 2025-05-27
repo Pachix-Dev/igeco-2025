@@ -12,8 +12,8 @@ export const carouselhome = [
             link: 'https://amofexpo.igeco.mx' 
         },
         { 
-            image: '/img/replusbg.webp', 
-            image_en: '/img/replusbg_eng.webp',
+            image: '/img/replusbg.jpg', 
+            image_en: '/img/replusbg_eng.jpg',
             alt: 'REPLUS 2026', 
             link: 'https://re-plus-mexico.com.mx' 
         },
@@ -24,5 +24,10 @@ export const carouselhome = [
             alt: 'ITM 2025', 
             link: 'https://industrialtransformation.mx' 
         },
-        
+        { 
+            image: '/img/portadaparavideodelhome1.webp', 
+            image_en: '/img/portadaparavideodelhome1.webp',
+            alt: 'ITM ACADEMY', 
+            link: 'https://itmacademy.com.mx/app/home/_' 
+        },        
     ]

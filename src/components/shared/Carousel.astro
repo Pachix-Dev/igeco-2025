@@ -13,7 +13,7 @@ interface Props {
 const { images } = Astro.props
 ---
 
-<div class='carousel' id='carousel'>
+<div class='carousel h-48 sm:h-[350px] lg:h-[650px]' id='carousel'>
   {
     images.map((img, idx) => (
       <a
@@ -40,7 +40,6 @@ const { images } = Astro.props
   .carousel {
     position: relative;
     width: 100%;
-    height: 700px;
     margin: auto;
     overflow: hidden;
   }
