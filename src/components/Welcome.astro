@@ -1,37 +1,21 @@
 ---
-import Carousel from './shared/Carousel.astro'
+import Carousel from "./shared/Carousel.astro";
 
-import { carouselhome } from '../data/constans_carousel'
+import { carouselhome } from "../data/constans_carousel";
 ---
 
-<section class='container mx-auto px-4'>
+<section class="container mx-auto px-4">
   <a
-    href='https://cuatro-cero.com.mx/'
-    target='_blank'
-    class='flex justify-center'
+    href="https://cuatro-cero.com.mx/"
+    target="_blank"
+    class="flex justify-center"
   >
     <img
-      src='/img/CuatroCero.jpg'
-      alt='Cuatro Cero'
-      class='ms-auto mb-4'
-      width='150'
+      src="/img/CuatroCero.jpg"
+      alt="Cuatro Cero"
+      class="ms-auto mb-4"
+      width="150"
     />
   </a>
   <Carousel images={carouselhome} />
-
-  <p class='mt-10 text-3xl font-bold'>IGECO Mexico</p>
-  <p class='my-5'>
-    <sttrong>Italian German Exhibition Company Mexico (IGECO Mexico)</sttrong> es
-    el resultado de la alianza estratégica entre <strong
-      >Deutsche Messe AG e Italian Exhibition Group (IEG)</strong
-    >, dos de las principales organizadoras de ferias comerciales a nivel
-    mundial con una fuerte presencia en mercados internacionales.<br /><br />
-    En <strong>IGECO Mexico</strong> nuestro objetivo contribuir al desarrollo económico
-    de las empresas a través de la organización de ferias comerciales y plataformas
-    que fomenten el negocio B2B, con un enfoque en resultados, calidad y excelencia.
-    Nuestra visión es ser la empresa líder en América Latina en la organización de
-    ferias y plataformas de negocios, proporcionando espacios estratégicos donde
-    la innovación, la tecnología y la sostenibilidad convergen para transformar industrias
-    y generar nuevas oportunidades de crecimiento.
-  </p>
 </section>

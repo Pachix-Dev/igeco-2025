@@ -1,68 +1,68 @@
 const events = [
-    {
-        title: "ITM Academy",
-        description: "La plataforma de capacitación empresarial y profesional impulsada por Industrial Transformation MEXICO. <br />INSCRIPCIONES ABIERTAS | Modalidad en línea ",
-        description_en: "The business and professional training platform powered by Industrial Transformation MEXICO. <br />ENROLLMENTS OPEN | Online mode",
-        date: "",
-        location: "",
-        image: "/img/portadaparavideodelhome1.webp",
-        link: "https://itmacademy.com.mx/app/home/_"    
-    },
-    {
-        title: "Industrial Transformation MEXICO",
-        description: "La Hannover Messe del continente americano.",
-        description_en: "The Hannover Messe of the American continent.",
-        date: "11 al 13 de noviembre",
-        location: "Centro Banamex, CDMX",
-        image: "/img/Logo_ITM.webp",
-        link: "https://industrialtransformation.mx/"    
-    },
-    {
-        title: "Americas’ Mobility of the Future",
-        description: "Foro & Summit, impulsando el desarrollo de la movilidad del futuro.",
-        description_en: "Forum & Summit, driving the development of future mobility.",
-        date: "11 al 13 de noviembre",
-        location: "Centro Banamex, CDMX",
-        image: "/img/bg_amof_nuevo_2025.webp",
-        link: "https://amofexpo.igeco.mx/"    
-    },
-    {
-        title: "Drone Innovators Forum Mexico",
-        description: "Liberando el potencial aéreo: el mundo de los drones.",
-        description_en: "Unlocking aerial potential: the world of drones.",
-        date: "11 al 13 de noviembre",
-        location: "Centro Banamex, CDMX",
-        image: "/img/drones.png",
-        link: "https://drone.igeco.mx/"    
-    },
-    {
-        title: "RE+ Península de Yucatán",
-        description: "El primer congreso especializado para potenciar las energías renovables en la región sur de México.",
-        description_en: "The first specialized congress to boost renewable energies in southern Mexico.",
-        date: "20 y 21 de noviembre",
-        location: "CIC Yucatán, Mérida",
-        image: "/img/congreso_yucatan.webp",
-        link: "https://re-plus-yucatan.igeco.mx/"    
-    },
-    {
-        title: "RE+ MEXICO",
-        description: "El evento líder en energía renovable y almacenamiento en México y Norteamérica.  ",
-        description_en: "The leading event in renewable energy and storage in Mexico and North America.",
-        date: "14 al 16 de abril, 2026",
-        location: "Expo Guadalajara, Guadalajara",
-        image: "/img/replus2026.webp",
-        link: "https://re-plus-mexico.com.mx/"    
-    },
-    {
-        title: "Ecomondo Mexico",
-        description: "La feria de tecnología ambiental y economía circular para Latinoamérica.",
-        description_en: "The environmental technology and circular economy fair for Latin America.",
-        date: "14 al 16 de abril, 2026",
-        location: "Expo Guadalajara, Guadalajara",
-        image: "/img/ecomondo2026.webp",
-        link: "https://ecomondomexico.com.mx/"    
-    }
-] 
+  {
+    title: "ITM Academy",
+    description: "La plataforma de capacitación empresarial y profesional impulsada por Industrial Transformation MEXICO. <br />INSCRIPCIONES ABIERTAS | Modalidad en línea ",
+    description_en: "The business and professional training platform powered by Industrial Transformation MEXICO. <br />ENROLLMENTS OPEN | Online mode",
+    date: "",
+    location: "",
+    image: "/img/portadaparavideodelhome1.webp",
+    link: "https://itmacademy.com.mx/app/home/_"
+  },
+  {
+    title: "Industrial Transformation MEXICO",
+    description: "La Hannover Messe del continente americano.",
+    description_en: "The Hannover Messe of the American continent.",
+    date: "11 al 13 de noviembre",
+    location: "Centro Banamex, CDMX",
+    image: "/img/Logo_ITM.webp",
+    link: "https://industrialtransformation.mx/"
+  },
+  {
+    title: "AMERICAS’  Mobility of the Future",
+    description: "Foro & Summit, impulsando el desarrollo de la movilidad del futuro.",
+    description_en: "Forum & Summit, driving the development of future mobility.",
+    date: "11 al 13 de noviembre",
+    location: "Centro Banamex, CDMX",
+    image: "/img/bg_amof_nuevo_2025.webp",
+    link: "https://amofexpo.igeco.mx/"
+  },
+  {
+    title: "Drone Innovators Forum Mexico",
+    description: "Liberando el potencial aéreo: el mundo de los drones.",
+    description_en: "Unlocking aerial potential: the world of drones.",
+    date: "11 al 13 de noviembre",
+    location: "Centro Banamex, CDMX",
+    image: "/img/drones.png",
+    link: "https://drone.igeco.mx/"
+  },
+  {
+    title: "RE+ PENÍNSULA DE YUCATÁN",
+    description: "El primer congreso especializado para potenciar las energías renovables en la región sur de México.",
+    description_en: "The first specialized congress to boost renewable energies in southern Mexico.",
+    date: "20 y 21 de noviembre",
+    location: "CIC Yucatán, Mérida",
+    image: "/img/congreso_yucatan.webp",
+    link: "https://re-plus-yucatan.igeco.mx/"
+  },
+  {
+    title: "RE+ MEXICO",
+    description: "El evento líder en energía renovable y almacenamiento en México y Norteamérica.  ",
+    description_en: "The leading event in renewable energy and storage in Mexico and North America.",
+    date: "14 al 16 de abril, 2026",
+    location: "Expo Guadalajara, Guadalajara",
+    image: "/img/replus2026.webp",
+    link: "https://re-plus-mexico.com.mx/"
+  },
+  {
+    title: "ECOMONDO MEXICO",
+    description: "La feria de tecnología ambiental y economía circular para Latinoamérica.",
+    description_en: "The environmental technology and circular economy fair for Latin America.",
+    date: "14 al 16 de abril, 2026",
+    location: "Expo Guadalajara, Guadalajara",
+    image: "/img/ecomondo2026.webp",
+    link: "https://ecomondomexico.com.mx/"
+  }
+]
 
 const carouselEvents = [
   {
@@ -270,9 +270,9 @@ const carouselEvents = [
       "It showcases comprehensive solutions for both primary and secondary sectors, including tools, machinery, and systems for both custom and mass production, surface technologies, and panel production.",
     description_fr:
       "Il présente des solutions complètes pour les secteurs primaires et secondaires, y compris des outils, de la machinerie et des systèmes pour la production à la vitesse et en masse, des technologies de surface et de la production de panneaux.",
-    date: "Mayo, 2025",
-    date_en: "May, 2025",
-    date_fr: "Mai, 2025",
+    date: "Junio, 2025",
+    date_en: "June, 2025",
+    date_fr: "Juin, 2025",
     location: "Germany",
   },
   {
