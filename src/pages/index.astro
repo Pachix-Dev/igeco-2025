@@ -8,6 +8,7 @@ import Layout from "../layouts/Layout.astro";
 import Marquee from "../components/shared/Marquee.astro";
 import { buyers1, buyers2, buyers3, buyers4 } from "../data/constanst_buyers";
 import Videos from "../components/Videos.astro";
+import Aliados from "../components/Aliados.astro";
 
 changeLanguage("es");
 ---
@@ -15,22 +16,22 @@ changeLanguage("es");
 <Layout>
   <main>
     <Welcome />
-    <section class='container mx-auto px-4'>
-      <p class='text-center text-5xl font-bold text-[#355282] m-8'>
-        {t('home.title_2')}
+    <section class="container mx-auto px-4">
+      <p class="text-center text-5xl font-bold text-[#355282] m-8">
+        {t("home.title_2")}
       </p>
       <Card events={events} />
     </section>
-    <section class='mt-20'>
-      <p class='text-center text-5xl font-bold text-[#355282] m-8'>
-        {t('home.title_3')}
+    <section class="mt-20">
+      <p class="text-center text-5xl font-bold text-[#355282] m-8">
+        {t("home.title_3")}
       </p>
       <Events events={carouselEvents} isLeftToRight={true} />
     </section>
 
-    <section class='mt-20'>
-      <p class='text-center text-5xl font-bold text-[#355282] m-8'>
-        {t('home.title_4')}
+    <section class="mt-20">
+      <p class="text-center text-5xl font-bold text-[#355282] m-8">
+        {t("home.title_4")}
       </p>
       <Marquee partners={buyers1} isLeftToRight={true} />
       <Marquee partners={buyers2} isLeftToRight={false} />
@@ -38,64 +39,84 @@ changeLanguage("es");
       <Marquee partners={buyers4} isLeftToRight={false} />
     </section>
     <Videos />
-    <section class='mt-20 container mx-auto px-4'>
-      <p class='text-center text-5xl font-bold text-[#355282] m-8'>
-        {t('home.title_testimonial')}
+    <section class="mt-20 container mx-auto px-4">
+      <p class="text-center text-5xl font-bold text-[#355282] m-8">
+        {t("home.title_testimonial")}
       </p>
-      <div class='grid lg:grid-cols-2 items-center justify-center gap-8'>
+      <div class="grid lg:grid-cols-2 items-center justify-center gap-8">
         <div
-          class='flex flex-col md:flex-row items-center gap-4 rounded-2xl bg-[#06439C] text-white p-4'
+          class="flex flex-col md:flex-row items-center gap-4 rounded-2xl bg-[#06439C] text-white p-4"
         >
           <img
-            src='/img/niedermark.webp'
-            alt='Niedermark'
-            class='rounded-2xl w-52 h-52 object-cover'
+            src="/img/niedermark.webp"
+            alt="Niedermark"
+            class="rounded-2xl w-52 h-52 object-cover"
           />
           <div>
-            <p class='font-bold text-xl'>
-              {t('home.testimonial_1')}
+            <p class="font-bold text-xl">
+              {t("home.testimonial_1")}
             </p>
             <p>
-              {t('home.testimonial_1_description')}
+              {t("home.testimonial_1_description")}
             </p>
           </div>
         </div>
 
         <div
-          class='flex flex-col md:flex-row items-center gap-4 rounded-2xl bg-[#06439C] text-white p-4'
+          class="flex flex-col md:flex-row items-center gap-4 rounded-2xl bg-[#06439C] text-white p-4"
         >
           <img
-            src='/img/jorgeislas.webp'
-            alt='Niedermark'
-            class='rounded-2xl w-52 h-52 object-cover'
+            src="/img/jorgeislas.webp"
+            alt="Niedermark"
+            class="rounded-2xl w-52 h-52 object-cover"
           />
           <div>
-            <p class='font-bold text-xl'>
-              {t('home.testimonial_2')}
+            <p class="font-bold text-xl">
+              {t("home.testimonial_2")}
             </p>
             <p>
-              {t('home.testimonial_2_description')}
+              {t("home.testimonial_2_description")}
             </p>
           </div>
         </div>
 
         <div
-          class='flex flex-col md:flex-row items-center gap-4 rounded-2xl bg-[#06439C] text-white p-4'
+          class="flex flex-col md:flex-row items-center gap-4 rounded-2xl bg-[#06439C] text-white p-4"
         >
           <img
-            src='/img/lucien_pinto.webp'
-            alt='Niedermark'
-            class='rounded-2xl w-52 h-52 object-cover'
+            src="/img/lucien_pinto.webp"
+            alt="Niedermark"
+            class="rounded-2xl w-52 h-52 object-cover"
           />
           <div>
-            <p class='font-bold text-xl'>
-              {t('home.testimonial_3')}
+            <p class="font-bold text-xl">
+              {t("home.testimonial_3")}
             </p>
             <p>
-              {t('home.testimonial_3_description')}
+              {t("home.testimonial_3_description")}
             </p>
           </div>
         </div>
+        <div
+          class="flex flex-col md:flex-row items-center gap-4 rounded-2xl bg-[#06439C] text-white p-4"
+        >
+          <img
+            src="/img/ValentinaValente.webp"
+            alt="Niedermark"
+            class="rounded-2xl w-52 h-52 object-cover"
+          />
+          <div>
+            <p class="font-bold text-xl">
+              {t("home.testimonial_4")}
+            </p>
+            <p>
+              {t("home.testimonial_4_description")}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <Aliados />
       </div>
     </section>
   </main>

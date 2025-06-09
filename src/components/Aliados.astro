@@ -1,0 +1,39 @@
+---
+import { alliesStrategic, media_1 } from "../data/constans_aliados";
+import i18next, { t } from "i18next";
+---
+
+<div class="container mx-auto px-4">
+    <p class="uppercase text-center text-5xl font-bold text-[#355282] m-8">
+        {t("home.title_ally")}
+    </p>
+    <div
+        class="mt-5 grid grid-cols-2 md:grid-cols-6 place-items-center *:grid *:place-items-center *:w-full *:h-full gap-6 *:bg-white *:rounded-lg *:shadow-lg *:p-1"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+    >
+        {
+            alliesStrategic.map((ally) => (
+                <a href={ally.link} target="_blank" rel="noreferrer">
+                    <img src={ally.src} alt={ally.alt} width={ally.width} />
+                </a>
+            ))
+        }
+    </div>
+    <p class="uppercase text-center text-5xl font-bold text-[#355282] m-8">
+        {t("home.title_media")}
+    </p>
+    <div
+        class="mt-5 grid grid-cols-2 md:grid-cols-6 place-items-center *:grid *:place-items-center *:w-full *:h-full gap-6 *:bg-white *:rounded-lg *:shadow-lg *:p-1"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+    >
+        {
+            media_1.map((ally) => (
+                <a href={ally.link} target="_blank" rel="noreferrer">
+                    <img src={ally.src} alt={ally.alt} width={ally.width} />
+                </a>
+            ))
+        }
+    </div>
+</div>
