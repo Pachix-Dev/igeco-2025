@@ -1,13 +1,16 @@
 ---
-import { t, changeLanguage } from "i18next";
+import i18next, { t, changeLanguage } from "i18next";
 import Layout from "../layouts/Layout.astro";
+import { areasExperiencia } from "../data/constants_areasexperiencia.js";
 
 changeLanguage("es");
+
+const currentLanguage = i18next.language;
 ---
 
 <Layout>
   <main>
-    <section class='container mx-auto px-4 py-8'>
+    <section class='container mx-auto px-4 py-8 text-justify'>
       <div class='grid md:grid-cols-2 gap-8'>
         <img
           src='/img/deutsche-messe-areas.webp'
@@ -23,7 +26,37 @@ changeLanguage("es");
         </div>
       </div>
       <div class='mt-20 grid md:grid-cols-2 gap-8'>
-        <div>
+        {areasExperiencia.map(area => (
+          <div>
+            <img
+              src={area.image}
+              alt={area.title}
+              class='rounded-2xl w-full h-[320px]'
+            />
+            <p class='mt-5 text-4xl font-bold mb-3'>
+              {currentLanguage === "en" ? area.title_en : area.title}
+            </p>
+            {currentLanguage === "en" ? (
+              <p set:html={area.text_en} />
+            ) : (
+              <p set:html={area.text} />
+            )}
+            <ul class='list-disc pl-5 mt-5'>
+              {area.links.map(link => (
+                <li class="hover:text-blue-500">
+                  <a
+                    href={link.href}
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    {link.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+        <!-- <div>
           <img
             src='/img/areas2.webp'
             alt='areas-de-experiencia-1'
@@ -36,11 +69,29 @@ changeLanguage("es");
           <ul class='list-disc pl-5 mt-5'>
             <li>
               <a
+                href='https://vicenza.aetevent.com/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                AUTOMATION & TESTING
+              </a>
+            </li>
+            <li>
+              <a
                 href='https://www.hannovermesse.de/'
                 target='_blank'
                 rel='noreferrer'
               >
                 HANNOVER MESSE
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.industrial-automation-show.com/En/'
+                target='_blank'
+                rel='noreferrer'
+              >
+              INDUSTRIAL AUTOMATION SHOW
               </a>
             </li>
             <li>
@@ -54,6 +105,60 @@ changeLanguage("es");
             </li>
             <li>
               <a
+                href='https://saudiindustrialtransformation.com/'
+                target='_blank'
+                rel='noreferrer'
+              >
+              Industrial Transformation SAUDI ARABIA
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.industrial-transformation.com/'
+                target='_blank'
+                rel='noreferrer'
+              >
+              Industrial Transformation ASIA-PACIFIC
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.industrialtransformation.com.au/'
+                target='_blank'
+                rel='noreferrer'
+              >
+              Industrial Transformation AUSTRALIA
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://industrialtransformation.mx/en/'
+                target='_blank'
+                rel='noreferrer'
+              >
+              Industrial Transformation MEXICO
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.laserfair.cn/index.php?lang=en/'
+                target='_blank'
+                rel='noreferrer'
+              >
+              LASERFAIR Shenzen 
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.ligna.de'
+                target='_blank'
+                rel='noreferrer'
+              >
+              LIGNA
+              </a>
+            </li>
+            <li>
+              <a
                 href='https://www.parts2clean.de/en/'
                 target='_blank'
                 rel='noreferrer'
@@ -63,16 +168,7 @@ changeLanguage("es");
             </li>
             <li>
               <a
-                href='https://hannovermesseusa.com/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                Hannover Messe USA
-              </a>
-            </li>
-            <li>
-              <a
-                href='https://www.ptc-asia.com/index.php?lang=en'
+                href='https://www.ptc-asia.com/index-en.html'
                 target='_blank'
                 rel='noreferrer'
               >
@@ -81,24 +177,25 @@ changeLanguage("es");
             </li>
             <li>
               <a
-                href='http://win-automation.com/en'
+                href='https://www.sciif.com/en/'
+                target='_blank'
+                rel='noreferrer'
+              >
+              South China International Industry Fair 
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.win-eurasia.com/en'
                 target='_blank'
                 rel='noreferrer'
               >
                 WIN EURASIA
               </a>
             </li>
-            <li>
-              <a
-                href='http://www.industrial-automation-beijing.com/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                Industrial Automation BEIJING
-              </a>
-            </li>
           </ul>
         </div>
+
         <div>
           <img
             src='/img/energy.webp'
@@ -582,7 +679,7 @@ changeLanguage("es");
               </a>
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </section>
   </main>
