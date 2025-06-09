@@ -247,7 +247,7 @@ export const areasExperiencia = [
     text: "El sector de la Joyería y Relojería representa una fusión entre arte, diseño, lujo e innovación. Este campo no solo celebra la excelencia artesanal y la tradición, sino que también integra avances tecnológicos, sostenibilidad y nuevas tendencias en materiales, estilos y experiencias de compra. A nivel internacional, diversas ferias y exposiciones reúnen a diseñadores, fabricantes, minoristas y compradores para impulsar el negocio, la creatividad y el posicionamiento global de las marcas.",
     text_en:
       "The field of Jewellery and Watchery represents a fusion between art, design, luxury and innovation. This field not only celebrates the excellence of the arts and tradition, but also integrates technological advances, sustainability and new trends in materials, styles and shopping experiences. At a global level, various fairs and exhibitions gather designers, manufacturers, boutiques and buyers to drive business, creativity and global positioning of brands.",
-    image: "/img/joyas-y-relojes.webp",
+    image: "/img/joyeria.webp",
     links: [
       {
         name: "JGT DUBAI",
