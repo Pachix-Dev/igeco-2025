@@ -1,0 +1,66 @@
+---
+import i18next, { changeLanguage, t } from "i18next";
+import Layout from "../layouts/Layout.astro";
+
+changeLanguage("es");
+---
+
+<Layout>
+    <div class="pt-5 container mx-auto px-4">
+        <i>Deutsche Messe</i>
+        <br />
+        <br />
+        <h4>{t("privacy.text")}</h4>
+        <div>
+            <strong
+                >Italian German Exhibition Company Mexico, S.A. de C.V.</strong
+            >
+            <br />
+            <br />
+            <span set:html={t("privacy.text_1")} />
+            <br />
+            <br />
+            <strong>
+                <u>{t("privacy.text")}</u>
+            </strong>
+            <br />
+            <br />
+            <p set:html={t("privacy.text_3")} />
+            <br />
+            <p set:html={t("privacy.text_4")} />
+            <br />
+            <p set:html={t("privacy.text_5")} />
+            <br />
+            <p set:html={t("privacy.text_6")} />
+            <br />
+            <p set:html={t("privacy.text_7")} />
+            <br />
+            <p set:html={t("privacy.text_8")} />
+            <br />
+            <p set:html={t("privacy.text_9")} />
+            <br />
+            <p set:html={t("privacy.text_10")} />
+            <br />
+            <p set:html={t("privacy.text_11")} />
+            <br />
+            <p set:html={t("privacy.text_12")} />
+            <br />
+            <p set:html={t("privacy.text_13")} />
+            <br />
+            <p set:html={t("privacy.text_14")} />
+            <br />
+            <p set:html={t("privacy.text_15")} />
+            <br />
+            <p set:html={t("privacy.text_16")} />
+            <br />
+            <p set:html={t("privacy.text_17")} />
+            <br />
+            <p set:html={t("privacy.text_18")} />
+            <br />
+            <p set:html={t("privacy.text_19")} />
+            <br />
+            <br />
+            <strong>{t("privacy.text_20")}</strong>
+        </div>
+    </div>
+</Layout>
