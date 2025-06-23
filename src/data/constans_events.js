@@ -65,7 +65,7 @@ const events = [
 ]
 
 const carouselEvents = [
-  {
+  /*{
     src: "/img/more-events/amof_event_bg.webp",
     logo: "/img/more-events/logoamof2025.webp",
     width: 250,
@@ -86,6 +86,28 @@ const carouselEvents = [
     date_fr: "Novembre, 2025",
     location: "CDMX",
   },
+  {
+    src: "/img/more-events/drone_event_bg.webp",
+    logo: "/img/more-events/droneslogo.webp",
+    width: 350,
+    alt: "INNOVATORS FORUM MX",
+    link: "https://drone.igeco.mx/",
+    title: "DRONE INNOVATORS FORUM MX ",
+    subtitle: "Liberando el potencial aéreo: El mundo de los drones",
+    subtitle_en: "Unleashing Aerial Potential: The World of Drones",
+    subtitle_fr: "Libérer le potentiel aérien : le monde des drones",
+    description:
+      "Participa en el punto de encuentro central para la industria de los drones, incluyendo proveedores de soluciones y tomadores de decisiones.",
+    description_en:
+      "Join the central meeting point for the drone industry, including solution providers and decision makers.",
+    description_fr:
+      "Participez au point de rencontre central pour l'industrie des drones, y compris les fournisseurs de solutions et les décideurs.",
+    date: "Noviembre, 2025",
+    date_en: "November, 2025",
+    date_fr: "Novembre, 2025",
+    location: "CDMX",
+  },
+  */
   {
     src: "/img/more-events/hannover_event_bg.webp",
     logo: "/img/more-events/logohannover.webp",
@@ -232,28 +254,7 @@ const carouselEvents = [
     date_en: "March, 2026",
     date_fr: "Mars, 2026",
     location: "Italy",
-  },
-  {
-    src: "/img/more-events/drone_event_bg.webp",
-    logo: "/img/more-events/droneslogo.webp",
-    width: 350,
-    alt: "INNOVATORS FORUM MX",
-    link: "https://drone.igeco.mx/",
-    title: "DRONE INNOVATORS FORUM MX ",
-    subtitle: "Liberando el potencial aéreo: El mundo de los drones",
-    subtitle_en: "Unleashing Aerial Potential: The World of Drones",
-    subtitle_fr: "Libérer le potentiel aérien : le monde des drones",
-    description:
-      "Participa en el punto de encuentro central para la industria de los drones, incluyendo proveedores de soluciones y tomadores de decisiones.",
-    description_en:
-      "Join the central meeting point for the drone industry, including solution providers and decision makers.",
-    description_fr:
-      "Participez au point de rencontre central pour l'industrie des drones, y compris les fournisseurs de solutions et les décideurs.",
-    date: "Noviembre, 2025",
-    date_en: "November, 2025",
-    date_fr: "Novembre, 2025",
-    location: "CDMX",
-  },
+  },  
   {
     src: "/img/more-events/ligna_event_bg.png",
     logo: "/img/more-events/ligna_logo.png",
