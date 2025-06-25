@@ -10,7 +10,7 @@ export const constans_persons = [
   {
     name: "Azul Ogazón",
     position_en: "Deputy Manager IGECO Mexico",
-    position: "Subgerente IGECO Mexico",
+    position: "Deputy Manager IGECO Mexico",
     image: "/img/AZUL-ICON.webp",
   },
   {
