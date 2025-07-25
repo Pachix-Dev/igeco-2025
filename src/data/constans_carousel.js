@@ -24,10 +24,10 @@ export const carouselhome = [
             alt: 'ITM 2025', 
             link: 'https://industrialtransformation.mx' 
         },
-        { 
+        /*{ 
             image: '/img/portadaparavideodelhome1.webp', 
             image_en: '/img/portadaparavideodelhome1.webp',
             alt: 'ITM ACADEMY', 
             link: 'https://itmacademy.com.mx/app/home/_' 
-        },        
+        },*/   
     ]

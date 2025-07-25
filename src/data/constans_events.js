@@ -1,5 +1,5 @@
 const events = [
-  {
+  /*{
     title: "ITM Academy",
     description: "La plataforma de capacitación empresarial y profesional impulsada por Industrial Transformation MEXICO. <br />INSCRIPCIONES ABIERTAS | Modalidad en línea ",
     description_en: "The business and professional training platform powered by Industrial Transformation MEXICO. <br />ENROLLMENTS OPEN | Online mode",
@@ -7,7 +7,7 @@ const events = [
     location: "",
     image: "/img/portadaparavideodelhome1.webp",
     link: "https://itmacademy.com.mx/app/home/_"
-  },
+  },*/
   {
     title: "Industrial Transformation MEXICO",
     description: "La Hannover Messe del continente americano.",
