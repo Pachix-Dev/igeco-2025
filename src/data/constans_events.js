@@ -7,6 +7,15 @@ const events = [
     location: "",
     image: "/img/portadaparavideodelhome1.webp",
     link: "https://itmacademy.com.mx/app/home/_"
+  },
+  {
+    title: "RE+ PENÍNSULA DE YUCATÁN",
+    description: "El primer congreso especializado para potenciar las energías renovables en la región sur de México.",
+    description_en: "The first specialized congress to boost renewable energies in southern Mexico.",
+    date: "20 y 21 de noviembre",
+    location: "CIC Yucatán, Mérida",
+    image: "/img/congreso_yucatan.webp",
+    link: "https://re-plus-yucatan.igeco.mx/"
   },*/
   {
     title: "Industrial Transformation MEXICO",
@@ -34,16 +43,7 @@ const events = [
     location: "Centro Banamex, CDMX",
     image: "/img/drones.png",
     link: "https://drone.igeco.mx/"
-  },
-  {
-    title: "RE+ PENÍNSULA DE YUCATÁN",
-    description: "El primer congreso especializado para potenciar las energías renovables en la región sur de México.",
-    description_en: "The first specialized congress to boost renewable energies in southern Mexico.",
-    date: "20 y 21 de noviembre",
-    location: "CIC Yucatán, Mérida",
-    image: "/img/congreso_yucatan.webp",
-    link: "https://re-plus-yucatan.igeco.mx/"
-  },
+  },  
   {
     title: "RE+ MEXICO",
     description: "El evento líder en energía renovable y almacenamiento en México y Norteamérica.  ",
