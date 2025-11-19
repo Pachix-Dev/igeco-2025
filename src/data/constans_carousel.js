@@ -17,13 +17,12 @@ export const carouselhome = [
             alt: 'REPLUS 2026', 
             link: 'https://re-plus-mexico.com.mx' 
         },
-
-        { 
-            image: '/img/itm_2025_primerov2.webp', 
-            image_en: '/img/kv_itm_2025_eng_vf.webp',
-            alt: 'ITM 2025', 
-            link: 'https://industrialtransformation.mx' 
-        },
+        // { 
+        //     image: '/img/itm_2025_primerov2.webp', 
+        //     image_en: '/img/kv_itm_2025_eng_vf.webp',
+        //     alt: 'ITM 2025', 
+        //     link: 'https://industrialtransformation.mx' 
+        // },
         /*{ 
             image: '/img/portadaparavideodelhome1.webp', 
             image_en: '/img/portadaparavideodelhome1.webp',
