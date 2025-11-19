@@ -18,33 +18,6 @@ const events = [
     link: "https://re-plus-yucatan.igeco.mx/"
   },*/
   {
-    title: "Industrial Transformation MEXICO",
-    description: "La Hannover Messe del continente americano.",
-    description_en: "The Hannover Messe of the American continent.",
-    date: "11 al 13 de noviembre",
-    location: "Centro Banamex, CDMX",
-    image: "/img/Logo_ITM.webp",
-    link: "https://industrialtransformation.mx/"
-  },
-  {
-    title: "AMERICAS’  Mobility of the Future",
-    description: "Foro & Summit, impulsando el desarrollo de la movilidad del futuro.",
-    description_en: "Forum & Summit, driving the development of future mobility.",
-    date: "11 al 13 de noviembre",
-    location: "Centro Banamex, CDMX",
-    image: "/img/bg_amof_nuevo_2025.webp",
-    link: "https://amofexpo.igeco.mx/"
-  },
-  {
-    title: "Drone Innovators Forum Mexico",
-    description: "Liberando el potencial aéreo: el mundo de los drones.",
-    description_en: "Unlocking aerial potential: the world of drones.",
-    date: "11 al 13 de noviembre",
-    location: "Centro Banamex, CDMX",
-    image: "/img/drones.png",
-    link: "https://drone.igeco.mx/"
-  },  
-  {
     title: "RE+ MEXICO",
     description: "El evento líder en energía renovable y almacenamiento en México y Norteamérica.  ",
     description_en: "The leading event in renewable energy and storage in Mexico and North America.",
@@ -61,7 +34,43 @@ const events = [
     location: "Expo Guadalajara, Guadalajara",
     image: "/img/ecomondo2026.webp",
     link: "https://ecomondomexico.com.mx/"
+  },
+  {
+    title: "AMERICAS’  Mobility of the Future",
+    description: "Encuentra las soluciónes para la movilidad del futuro en ECOMONDO MÉXICO",
+    description_en: "Forum & Summit, driving the development of future mobility.",
+    date: "14 al 16 de abril, 2026",
+    location: "Expo Guadalajara, Guadalajara",
+    image: "/img/bg_amof_nuevo_2025.webp",
+    link: "https://ecomondomexico.com.mx/"
+  },
+  {
+    title: "Smart Technology Expo",
+    description: "Marca un hito en la Industria 4.0 en México",
+    description_en: "Marks a milestone in Industry 4.0 in Mexico",
+    date: "18 al 20 de noviembre, 2026",
+    location: "Expo Guadalajara, Guadalajara",
+    image: "/img/ste_logo.webp",
+    link: "https://smarttechnologyexpo.mx/"
+  },
+  {
+    title: "Drone Innovators Forum Mexico",
+    description: "Liberando el potencial aéreo: el mundo de los drones.",
+    description_en: "Unlocking aerial potential: the world of drones.",
+    date: " próximamente...",
+    location: "",
+    image: "/img/drones.png",
+    link: "https://drone.igeco.mx/"
   }
+  // {
+  //   title: "Industrial Transformation MEXICO",
+  //   description: "La Hannover Messe del continente americano.",
+  //   description_en: "The Hannover Messe of the American continent.",
+  //   date: "11 al 13 de noviembre",
+  //   location: "Centro Banamex, CDMX",
+  //   image: "/img/Logo_ITM.webp",
+  //   link: "https://industrialtransformation.mx/"
+  // },
 ]
 
 const carouselEvents = [
