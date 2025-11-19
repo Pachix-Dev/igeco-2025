@@ -20,14 +20,6 @@ export const constans_persons = [
     image: "/img/manuelferreira.webp",
   },
   {
-    name: "Eder Rangel",
-    position:
-      "Gerente de Proyecto Industrial Transformation Mexico y AMERICAS’ mobility of the future.",
-    position_en:
-      "Project Manager Industrial Transformation Mexico and AMERICAS’ mobility of the future.",
-    image: "/img/eder.jpg",
-  },
-  {
     name: "Laura Amaro",
     position_en: "Project Manager Ecomondo Mexico",
     position: "Gerente de Proyecto Ecomondo Mexico",
