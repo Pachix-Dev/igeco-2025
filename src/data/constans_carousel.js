@@ -17,6 +17,12 @@ export const carouselhome = [
             alt: 'REPLUS 2026', 
             link: 'https://re-plus-mexico.com.mx' 
         },
+        { 
+            image: '/img/ste_banner.webp', 
+            image_en: '/img/replusbg_eng.jpg',
+            alt: 'REPLUS 2026', 
+            link: 'https://re-plus-mexico.com.mx' 
+        },
         // { 
         //     image: '/img/itm_2025_primerov2.webp', 
         //     image_en: '/img/kv_itm_2025_eng_vf.webp',
