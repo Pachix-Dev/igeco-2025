@@ -42,7 +42,7 @@ const events = [
     date: "14 al 16 de abril, 2026",
     location: "Expo Guadalajara, Guadalajara",
     image: "/img/bg_amof_nuevo_2025.webp",
-    link: "https://ecomondomexico.com.mx/"
+    link: "https://amofexpo.igeco.mx/"
   },
   {
     title: "Smart Technology Expo",
