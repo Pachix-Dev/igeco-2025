@@ -1,21 +1,9 @@
 ---
-import Carousel from "./shared/Carousel.astro";
+import Carousel from './shared/Carousel.astro'
 
-import { carouselhome } from "../data/constans_carousel";
+import { carouselhome } from '../data/constans_carousel'
 ---
 
-<section class="container mx-auto px-4">
-  <a
-    href="https://cuatro-cero.com.mx/"
-    target="_blank"
-    class="flex justify-center"
-  >
-    <img
-      src="/img/CuatroCero.jpg"
-      alt="Cuatro Cero"
-      class="ms-auto mb-4"
-      width="150"
-    />
-  </a>
+<section class='mt-10 container mx-auto px-4'>
   <Carousel images={carouselhome} />
 </section>

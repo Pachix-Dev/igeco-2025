@@ -20,16 +20,23 @@ export const constans_persons = [
     image: "/img/manuelferreira.webp",
   },
   {
-    name: "Laura Amaro",
-    position_en: "Project Manager Ecomondo Mexico",
-    position: "Gerente de Proyecto Ecomondo Mexico",
-    image: "/img/laura.webp",
+    name: "Claudia Rodriguez",
+    position_en: "Executive Director of Tech & Automation Exhibitions",
+    position: "Executive Director of Tech & Automation Exhibitions",
+    image: "/img/Claudia_Rodríguez.jpeg",
   },
+  
   {
     name: "Samuel Ramírez",
     position_en: "Project Manager RE+ Mexico",
     position: "Gerente de Proyecto RE+ Mexico",
     image: "/img/samuel-ramirez.webp",
+  },
+  {
+    name: "Laura Amaro",
+    position_en: "Project Manager Ecomondo Mexico",
+    position: "Gerente de Proyecto Ecomondo Mexico",
+    image: "/img/laura.webp",
   },
   {
     name: "Rodolfo Carrizales",
@@ -49,4 +56,5 @@ export const constans_persons = [
     position: "Director de Operaciones",
     image: "/img/damian-arias.webp",
   },
+  
 ];

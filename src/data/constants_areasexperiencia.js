@@ -36,8 +36,8 @@ export const areasExperiencia = [
         href: "https://www.industrial-transformation.com.au/",
       },
       {
-        name: "INDUSTRIAL TRANSFORMATION MEXICO",
-        href: "https://industrialtransformation.mx/en/",
+        name: "SMART TECHNOLOGY EXPO",
+        href: "https://smarttechnologyexpo.mx/",
       },
       {
         name: "LASERFAIR Shenzen",
@@ -76,11 +76,7 @@ export const areasExperiencia = [
       {
         name: "ECOMONDO ITALIA",
         href: "https://www.ecomondo.com",
-      },
-      {
-        name: "ECOMONDO CHINA",
-        href: "https://en.ecomondo.com/ecomondo/network/ecomondo-china",
-      },
+      },      
       {
         name: "ECOMONDO MEXICO",
         href: "https://ecomondomexico.com.mx/en/",
@@ -106,11 +102,7 @@ export const areasExperiencia = [
       {
         name: "RE+ MEXICO",
         href: "https://re-plus-mexico.com.mx/",
-      },
-      {
-        name: "RE+ PENÍNSULA DE YUCATÁN",
-        href: "https://re-plus-yucatan.igeco.mx/",
-      },
+      },      
       {
         name: "DUBAI MUSCLE SHOW",
         href: "https://dubaimuscleshow.com/",
@@ -132,11 +124,7 @@ export const areasExperiencia = [
     text_en:
       "Driven by technological advancements, sustainability and smart transportation demands, this sector covers from conventional vehicles to advanced urban logistics, last-mile delivery, electromobility and public transport. Various international events allow professionals, companies and governments to explore trends, share knowledge and establish strategic alliances.",
     image: "/img/movility.webp",
-    links: [
-      {
-        name: "AMERICAS’ mobility of the future ",
-        href: "https://amofexpo.igeco.mx/",
-      },
+    links: [      
       {
         name: "Automechanika ISTANBUL ",
         href: "https://automechanika-istanbul.tr.messefrankfurt.com/istanbul/en.html/",

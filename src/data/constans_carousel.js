@@ -5,12 +5,7 @@ export const carouselhome = [
             alt: 'ECOMONDO 2026', 
             link: 'https://ecomondomexico.com.mx' 
         },
-        {   
-            image: '/img/amof_2025_bg.webp', 
-            image_en: '/img/amof_bf_2025_eng.jpg',
-            alt: 'AMOF 2026', 
-            link: 'https://amofexpo.igeco.mx/' 
-        },
+        
         { 
             image: '/img/replusbg.jpg', 
             image_en: '/img/replusbg_eng.jpg',
@@ -23,13 +18,20 @@ export const carouselhome = [
             alt: 'Smart Technology Expo 2026', 
             link: 'https://smarttechnologyexpo.mx/' 
         },
-        // { 
-        //     image: '/img/itm_2025_primerov2.webp', 
-        //     image_en: '/img/kv_itm_2025_eng_vf.webp',
-        //     alt: 'ITM 2025', 
-        //     link: 'https://industrialtransformation.mx' 
-        // },
-        /*{ 
+        /*
+        { 
+            image: '/img/itm_2025_primerov2.webp', 
+            image_en: '/img/kv_itm_2025_eng_vf.webp',
+            alt: 'ITM 2025', 
+            link: 'https://industrialtransformation.mx' 
+        },
+        {   
+            image: '/img/amof_2025_bg.webp', 
+            image_en: '/img/amof_bf_2025_eng.jpg',
+            alt: 'AMOF 2026', 
+            link: 'https://amofexpo.igeco.mx/' 
+        },
+        { 
             image: '/img/portadaparavideodelhome1.webp', 
             image_en: '/img/portadaparavideodelhome1.webp',
             alt: 'ITM ACADEMY', 

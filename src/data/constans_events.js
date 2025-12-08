@@ -16,7 +16,25 @@ const events = [
     location: "CIC Yucatán, Mérida",
     image: "/img/congreso_yucatan.webp",
     link: "https://re-plus-yucatan.igeco.mx/"
-  },*/
+  },
+  {
+    title: "AMERICAS’  Mobility of the Future",
+    description: "Encuentra las soluciónes para la movilidad del futuro en ECOMONDO MÉXICO",
+    description_en: "Forum & Summit, driving the development of future mobility.",
+    date: "14 al 16 de abril, 2026",
+    location: "Expo Guadalajara, Guadalajara",
+    image: "/img/bg_amof_nuevo_2025.webp",
+    link: "https://amofexpo.igeco.mx/"
+  },
+  {
+    title: "Drone Innovators Forum Mexico",
+    description: "Liberando el potencial aéreo: el mundo de los drones.",
+    description_en: "Unlocking aerial potential: the world of drones.",
+    date: " próximamente...",
+    location: "",
+    image: "/img/drones.png",
+    link: "https://drone.igeco.mx/"
+  }*/
   {
     title: "RE+ MEXICO",
     description: "El evento líder en energía renovable y almacenamiento en México y Norteamérica.  ",
@@ -35,15 +53,7 @@ const events = [
     image: "/img/ecomondo2026.webp",
     link: "https://ecomondomexico.com.mx/"
   },
-  {
-    title: "AMERICAS’  Mobility of the Future",
-    description: "Encuentra las soluciónes para la movilidad del futuro en ECOMONDO MÉXICO",
-    description_en: "Forum & Summit, driving the development of future mobility.",
-    date: "14 al 16 de abril, 2026",
-    location: "Expo Guadalajara, Guadalajara",
-    image: "/img/bg_amof_nuevo_2025.webp",
-    link: "https://amofexpo.igeco.mx/"
-  },
+  
   {
     title: "Smart Technology Expo",
     description: "Marca un hito en la Industria 4.0 en México",
@@ -53,15 +63,7 @@ const events = [
     image: "/img/ste_logo.webp",
     link: "https://smarttechnologyexpo.mx/"
   },
-  {
-    title: "Drone Innovators Forum Mexico",
-    description: "Liberando el potencial aéreo: el mundo de los drones.",
-    description_en: "Unlocking aerial potential: the world of drones.",
-    date: " próximamente...",
-    location: "",
-    image: "/img/drones.png",
-    link: "https://drone.igeco.mx/"
-  }
+  
   // {
   //   title: "Industrial Transformation MEXICO",
   //   description: "La Hannover Messe del continente americano.",
@@ -154,9 +156,9 @@ const carouselEvents = [
       "It is the meeting point where industrial groups, stakeholders, policy makers, opinion leaders, local authorities, research bodies and institutions come together to establish the key elements that define the strategies for the development of EU environmental policy.",
     description_fr:
       "C'est le point de rencontre où les groupes industriels, les parties prenantes, les responsables politiques, les leaders de l'opinion, les autorités locales, les organismes de recherche et les institutions se réunissent pour définir les éléments clés qui définissent les stratégies pour le développement de la politique environnementale de l'UE.",
-    date: "Noviembre, 2025",
-    date_en: "November, 2025",
-    date_fr: "Novembre, 2025",
+    date: "Noviembre, 2026",
+    date_en: "November, 2026",
+    date_fr: "Novembre, 2026",
     location: "Italy",
   },
   {
@@ -196,9 +198,9 @@ const carouselEvents = [
       "Electricity Transformation Canada will bring together energy professionals from converging sectors — wind energy, solar energy, and energy storage — to network, collaborate and grow their businesses.",
     description_fr:
       "Electricity Transformation Canada rassemblera les professionnels de l'énergie des secteurs convergents (énergie électrique, énergie solaire et stockage d'énergie) pour créer des réseaux, collaborer et faire grandir leurs entreprises.",
-    date: "Octubre 2025",
-    date_en: "October 2025",
-    date_fr: "Octobre 2025",
+    date: "Octubre 2026",
+    date_en: "October 2026",
+    date_fr: "Octobre 2026",
     location: "Canada",
   },
   {
@@ -217,9 +219,9 @@ const carouselEvents = [
       "RiminiWellness is the world's largest gathering dedicated to physical activity, wellness, sport, physical culture and healthy eating.",
     description_fr:
       "RiminiWellness est la plus grande réunion du monde dédiée à l'activité physique, au bien-être, au sport, à la culture physique et à la consommation de bon aliment.",
-    date: "Mayo / Junio, 2025",
-    date_en: "May / June, 2025",
-    date_fr: "Mai / Juin, 2025",
+    date: "Mayo, 2026",
+    date_en: "May, 2026",
+    date_fr: "Mai, 2026",
     location: "Italy",
   },
   {
@@ -238,9 +240,9 @@ const carouselEvents = [
       "It offers visitors direct access to innovative, interconnected agricultural systems that use digital technologies to increase efficiency, sustainability and productivity.",
     description_fr:
       "Il offre aux visiteurs un accès direct à des systèmes agricoles innovants et interconnectés qui utilisent des technologies numériques pour augmenter l'efficacité, la sobriété et la productivité.",
-    date: "Noviembre, 2025",
-    date_en: "November, 2025",
-    date_fr: "Novembre, 2025",
+    date: "Noviembre, 2027",
+    date_en: "November, 2027",
+    date_fr: "Novembre, 2027",
     location: "Germany",
   },
   {
@@ -280,9 +282,9 @@ const carouselEvents = [
       "It showcases comprehensive solutions for both primary and secondary sectors, including tools, machinery, and systems for both custom and mass production, surface technologies, and panel production.",
     description_fr:
       "Il présente des solutions complètes pour les secteurs primaires et secondaires, y compris des outils, de la machinerie et des systèmes pour la production à la vitesse et en masse, des technologies de surface et de la production de panneaux.",
-    date: "Junio, 2025",
-    date_en: "June, 2025",
-    date_fr: "Juin, 2025",
+    date: "Mayo, 2027",
+    date_en: "May, 2027",
+    date_fr: "Mai, 2027",
     location: "Germany",
   },
   {
@@ -304,9 +306,9 @@ const carouselEvents = [
       "A true business hub, bringing together the most influential players from across the global jewelry sector.",
     description_fr:
       "Un vrai centre de commerce, rassemblant les principaux acteurs du secteur mondial de la joaillerie.",
-    date: "Septiembre, 2025",
-    date_en: "September, 2025",
-    date_fr: "Septembre, 2025",
+    date: "Enero, 2026",
+    date_en: "January, 2026",
+    date_fr: "Janvier, 2026",
     location: "Italy",
   },
 ];
