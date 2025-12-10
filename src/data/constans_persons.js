@@ -7,12 +7,12 @@ export const constans_persons = [
       "CEO and Member of the Board of Directors of Italian German Exhibition Company Mexico, USA and Canada.",
     image: "/img/BERND-ICON.webp",
   },
-  {
-    name: "Azul Ogazón",
-    position_en: "Deputy Manager IGECO Mexico",
-    position: "Deputy Manager IGECO Mexico",
-    image: "/img/AZUL-ICON.webp",
-  },
+  // {
+  //   name: "Azul Ogazón",
+  //   position_en: "Deputy Manager IGECO Mexico",
+  //   position: "Deputy Manager IGECO Mexico",
+  //   image: "/img/AZUL-ICON.webp",
+  // },
   {
     name: "Manuel Ferreira",
     position_en: "CFO IGECO Mexico",
