@@ -9,12 +9,14 @@ import Marquee from "../components/shared/Marquee.astro";
 import { buyers1, buyers2, buyers3, buyers4 } from "../data/constanst_buyers";
 import Videos from "../components/Videos.astro";
 import Aliados from "../components/Aliados.astro";
+import HomePopup from "../components/HomePopup.jsx";
 
 changeLanguage("es");
 ---
 
 <Layout>
   <main>
+    <HomePopup client:load />
     <Welcome />
     <section class='container mx-auto px-4'>
       <p class='text-center text-5xl font-bold text-[#355282] m-8'>
