@@ -1,51 +1,59 @@
 ---
-import i18next from 'i18next'
+import i18next from "i18next";
+import { t } from "i18next";
 
-const currentLanguage = i18next.language
-const base = i18next.language === 'es' ? '' : `/en`
+const currentLanguage = i18next.language;
+const base = i18next.language === "es" ? "" : `/en`;
 
 interface Props {
   events: Array<{
-    title: string
-    description: string
-    description_en?: string
-    date: string
-    location: string
-    image: string
-    link: string
-  }>
+    title: string;
+    description: string;
+    description_en?: string;
+    date: string;
+    location: string;
+    image: string;
+    link: string;
+  }>;
 }
 
-const { events } = Astro.props
+const { events } = Astro.props;
 ---
 
-<div
-  class='mt-20 grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 container mx-auto px-4'
->
-  {
-    events.map((event) => (
-      <a href={event.link} target='_blank'>
-        <div class='rounded-lg shadow-lg overflow-hidden bg-white card h-full'>
-          <img
-            src={event.image}
-            alt={event.title}
-            class='h-72 object-cover object-center w-full'
-          />
-          <div class='p-3 text-center text-gray-500'>
-            <h3 class='font-bold text-2xl text-black'>{event.title}</h3>
-            <p
-              class='mt-5'
-              set:html={
-                currentLanguage === 'es'
-                  ? event.description
-                  : event.description_en
-              }
+<section>
+  <p
+    class="text-center text-2xl sm:text-3xl md:text-5xl font-extrabold text-[#355282] py-20"
+  >
+    {t("home.title_2")}
+  </p>
+  <div
+    class="grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 container mx-auto px-4"
+  >
+    {
+      events.map((event) => (
+        <a href={event.link} target="_blank">
+          <div class="rounded-lg shadow-lg overflow-hidden bg-white card h-full">
+            <img
+              src={event.image}
+              alt={event.title}
+              class="h-72 object-cover object-center w-full"
             />
-            <p class='mt-5'>{event.date}</p>
-            <p>{event.location}</p>
+            <div class="p-3 text-center text-gray-500">
+              <h3 class="font-bold text-2xl text-black">{event.title}</h3>
+              <p
+                class="mt-5"
+                set:html={
+                  currentLanguage === "es"
+                    ? event.description
+                    : event.description_en
+                }
+              />
+              <p class="mt-5">{event.date}</p>
+              <p>{event.location}</p>
+            </div>
           </div>
-        </div>
-      </a>
-    ))
-  }
-</div>
+        </a>
+      ))
+    }
+  </div>
+</section>

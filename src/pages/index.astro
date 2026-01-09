@@ -19,16 +19,13 @@ changeLanguage("es");
   <main>
     <!-- <HomePopup client:load /> -->
     <Welcome />
-    <section class='container mx-auto px-4'>
-      <p class='text-center text-2xl sm:text-3xl md:text-5xl font-extrabold text-[#355282] m-8'>
-        {t('home.title_2')}
-      </p>
-      <Card events={events} />
-    </section>
+
+    <!-- Events Section -->
+    <Card events={events} />
 
     <!-- Global Trade Shows Section -->
     <GlobalTradeShows />
-    
+
     <section class='mt-20'>
       <p class='text-center text-5xl font-bold text-[#355282] m-8'>
         {t('home.title_4')}
