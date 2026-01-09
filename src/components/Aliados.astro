@@ -4,7 +4,8 @@ import i18next, { t } from "i18next";
 ---
 
 <div class="container mx-auto px-4">
-    <p class="uppercase text-center text-5xl font-bold text-[#355282] m-8">
+    <div class="sm:py-10">
+        <p class="uppercase text-center text-2xl sm:text-3xl md:text-5xl font-extrabold text-[#355282] m-8">
         {t("home.title_ally")}
     </p>
     <div
@@ -20,7 +21,9 @@ import i18next, { t } from "i18next";
             ))
         }
     </div>
-    <p class="uppercase text-center text-5xl font-bold text-[#355282] m-8">
+    </div>
+    <div class="sm:py-10">
+        <p class="uppercase text-center text-2xl sm:text-3xl md:text-5xl font-extrabold text-[#355282] m-8">
         {t("home.title_media")}
     </p>
     <div
@@ -35,5 +38,6 @@ import i18next, { t } from "i18next";
                 </a>
             ))
         }
+    </div>
     </div>
 </div>

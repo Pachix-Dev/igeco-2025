@@ -10,6 +10,7 @@ import { buyers1, buyers2, buyers3, buyers4 } from "../data/constanst_buyers";
 import Videos from "../components/Videos.astro";
 import Aliados from "../components/Aliados.astro";
 import HomePopup from "../components/HomePopup.jsx";
+import GlobalTradeShows from "../components/GlobalTradeShows.astro";
 
 changeLanguage("es");
 ---
@@ -19,18 +20,15 @@ changeLanguage("es");
     <!-- <HomePopup client:load /> -->
     <Welcome />
     <section class='container mx-auto px-4'>
-      <p class='text-center text-5xl font-bold text-[#355282] m-8'>
+      <p class='text-center text-2xl sm:text-3xl md:text-5xl font-extrabold text-[#355282] m-8'>
         {t('home.title_2')}
       </p>
       <Card events={events} />
     </section>
-    <section class='mt-20'>
-      <p class='text-center text-5xl font-bold text-[#355282] m-8'>
-        {t('home.title_3')}
-      </p>
-      <Events events={carouselEvents} isLeftToRight={true} />
-    </section>
 
+    <!-- Global Trade Shows Section -->
+    <GlobalTradeShows />
+    
     <section class='mt-20'>
       <p class='text-center text-5xl font-bold text-[#355282] m-8'>
         {t('home.title_4')}
@@ -42,7 +40,7 @@ changeLanguage("es");
     </section>
     <Videos />
     <section class='mt-20 container mx-auto px-4'>
-      <p class='text-center text-5xl font-bold text-[#355282] m-8'>
+      <p class='text-center text-2xl sm:text-3xl md:text-5xl font-extrabold text-[#355282] m-8'>
         {t('home.title_testimonial')}
       </p>
       <div class='grid lg:grid-cols-2 items-center justify-center gap-8'>

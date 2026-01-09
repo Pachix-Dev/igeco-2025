@@ -1,0 +1,16 @@
+---
+import { changeLanguage, t } from "i18next";
+import Events from "./Events.astro";
+import { events, carouselEvents } from "../data/constans_events";
+
+changeLanguage("es");
+---
+
+<section class="mt-20">
+  <p
+    class="text-center text-3xl sm:text-3xl md:text-5xl font-extrabold text-[#355282]"
+  >
+    {t("home.title_3")}
+  </p>
+  <Events events={carouselEvents} isLeftToRight={true} />
+</section>
