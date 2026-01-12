@@ -1,3 +1,5 @@
+import { date } from "astro:schema";
+
 const events = [
   /*{
     title: "ITM Academy",
@@ -40,6 +42,7 @@ const events = [
     description: "El evento líder en energía renovable y almacenamiento en México y Norteamérica.  ",
     description_en: "The leading event in renewable energy and storage in Mexico and North America.",
     date: "14 al 16 de abril, 2026",
+    date_en: "April 14th - 16th, 2026",
     location: "Expo Guadalajara, Guadalajara",
     image: "/img/replus2026.webp",
     link: "https://re-plus-mexico.com.mx/"
@@ -49,6 +52,7 @@ const events = [
     description: "La feria de tecnología ambiental y economía circular para Latinoamérica.",
     description_en: "The environmental technology and circular economy fair for Latin America.",
     date: "14 al 16 de abril, 2026",
+    date_en: "April 14th - 16th, 2026",
     location: "Expo Guadalajara, Guadalajara",
     image: "/img/ecomondo2026.webp",
     link: "https://ecomondomexico.com.mx/"
@@ -59,6 +63,7 @@ const events = [
     description: "Marca un hito en la Industria 4.0 en México",
     description_en: "Marks a milestone in Industry 4.0 in Mexico",
     date: "18 al 20 de noviembre, 2026",
+    date_en: "November 18th - 20th, 2026",
     location: "Expo Guadalajara, Guadalajara",
     image: "/img/ste_logo.webp",
     link: "https://smarttechnologyexpo.mx/"

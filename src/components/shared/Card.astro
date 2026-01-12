@@ -11,6 +11,7 @@ interface Props {
     description: string;
     description_en?: string;
     date: string;
+    date_en?: string;
     location: string;
     image: string;
     link: string;
@@ -19,41 +20,80 @@ interface Props {
 
 const { events } = Astro.props;
 ---
+<section class="w-full bg-gradient-to-br from-gray-50 to-white py-20">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+    {/* Title Section */}
+    <div class="text-center mb-8 sm:mb-12">
+      <p
+        class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-[#355282] tracking-tight"
+      >
+        {t("home.title_2")}
+      </p>
+    </div>
 
-<section>
-  <p
-    class="text-center text-2xl sm:text-3xl md:text-5xl font-extrabold text-[#355282] py-20"
-  >
-    {t("home.title_2")}
-  </p>
-  <div
-    class="grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 container mx-auto px-4"
-  >
-    {
-      events.map((event) => (
-        <a href={event.link} target="_blank">
-          <div class="rounded-lg shadow-lg overflow-hidden bg-white card h-full">
-            <img
-              src={event.image}
-              alt={event.title}
-              class="h-72 object-cover object-center w-full"
-            />
-            <div class="p-3 text-center text-gray-500">
-              <h3 class="font-bold text-2xl text-black">{event.title}</h3>
-              <p
-                class="mt-5"
-                set:html={
-                  currentLanguage === "es"
-                    ? event.description
-                    : event.description_en
-                }
-              />
-              <p class="mt-5">{event.date}</p>
-              <p>{event.location}</p>
+    {/* Events Grid */}
+    <div
+      class="grid gap-8 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 auto-rows-max"
+    >
+      {
+        events.map((event) => (
+          <a href={event.link} target="_blank" class="group h-full">
+            <div class="relative h-full bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-700 hover:-translate-y-3 border border-gray-200 hover:border-[#355282]/30 flex flex-col">
+              
+              {/* Image Container - Taller */}
+              <div class="relative h-48 sm:h-56 md:h-64 lg:h-80 overflow-hidden bg-gradient-to-br from-gray-300 to-gray-200">
+                <img
+                  src={event.image}
+                  alt={event.title}
+                  class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+                {/* Overlay mejorado */}
+                <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent group-hover:from-black/70 transition-all duration-500"></div>
+              </div>
+
+              {/* Content Container - Mejor distribuido */}
+              <div class="p-4 sm:p-5 md:p-6 lg:p-7 flex flex-col flex-1">
+                
+                {/* Título */}
+                <h3 class="font-bold text-lg sm:text-xl md:text-2xl text-gray-900 leading-tight mb-2 sm:mb-3 line-clamp-2 group-hover:text-[#355282] transition-colors duration-300">
+                  {event.title}
+                </h3>
+                
+                {/* Fecha Badge */}
+                <div class="mb-2 sm:mb-3 lg:mb-4">
+                  <p class="inline-flex items-center gap-1 sm:gap-1.5 bg-gradient-to-r from-[#355282] to-blue-600 text-white px-2.5 sm:px-3 md:px-4 py-1 sm:py-2 rounded-full text-xs font-bold shadow-md group-hover:shadow-lg transition-shadow">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M6 2a1 1 0 000 2h8a1 1 0 100-2H6zM4 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 01-2 2H6a2 2 0 01-2-2V5z"/>
+                    </svg>
+                    <span>{currentLanguage === "es" ? event.date : event.date_en }</span>
+                  </p>
+                </div>
+                
+                {/* Descripción */}
+                <p
+                  class="text-gray-600 text-xs sm:text-sm leading-relaxed line-clamp-2 sm:line-clamp-3 flex-1 mb-1 sm:mb-2"
+                  set:html={
+                    currentLanguage === "es"
+                      ? event.description
+                      : event.description_en
+                  }
+                />
+                
+                {/* Location Footer - Sticky al bottom */}
+                <div class="flex items-center justify-center gap-1.5 sm:gap-2.5 pt-3 sm:pt-4 lg:pt-5 mt-auto border-t border-gray-200/80">
+                  <svg class="w-4 h-4 sm:w-5 sm:h-5 text-[#355282] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                  </svg>
+                  <span class="text-gray-700 text-xs sm:text-sm font-semibold">{event.location}</span>
+                </div>
+              </div>
+
+              {/* Animated Border */}
+              <div class="absolute inset-0 rounded-3xl pointer-events-none border-2 border-transparent group-hover:border-[#355282]/40 transition-colors duration-500"></div>
             </div>
-          </div>
-        </a>
-      ))
-    }
+          </a>
+        ))
+      }
+    </div>
   </div>
 </section>
