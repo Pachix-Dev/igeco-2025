@@ -1,14 +1,14 @@
 export const carouselhome = [
         { 
-            image: '/img/ecomondo_es.webp', 
-            image_en: '/img/ecomondo_en.webp',
+            image: '/img/key_visual_ecomondo_es.webp', 
+            image_en: '/img/key_visual_ecomondo_en.webp',
             alt: 'ECOMONDO 2026', 
             link: 'https://ecomondomexico.com.mx' 
         },
         
         { 
-            image: '/img/replusbg.jpg', 
-            image_en: '/img/replusbg_eng.jpg',
+            image: '/img/key_visual_replus_es.webp', 
+            image_en: '/img/key_visual_replus_en.webp',
             alt: 'REPLUS 2026', 
             link: 'https://re-plus-mexico.com.mx' 
         },
