@@ -38,27 +38,6 @@ const events = [
     link: "https://drone.igeco.mx/"
   }*/
   {
-    title: "RE+ MEXICO",
-    description: "El evento líder en energía renovable y almacenamiento en México y Norteamérica.  ",
-    description_en: "The leading event in renewable energy and storage in Mexico and North America.",
-    date: "14 al 16 de abril, 2026",
-    date_en: "April 14th - 16th, 2026",
-    location: "Expo Guadalajara, Guadalajara",
-    image: "/img/replus2026.webp",
-    link: "https://re-plus-mexico.com.mx/"
-  },
-  {
-    title: "ECOMONDO MEXICO",
-    description: "La feria de tecnología ambiental y economía circular para Latinoamérica.",
-    description_en: "The environmental technology and circular economy fair for Latin America.",
-    date: "14 al 16 de abril, 2026",
-    date_en: "April 14th - 16th, 2026",
-    location: "Expo Guadalajara, Guadalajara",
-    image: "/img/ecomondo2026.webp",
-    link: "https://ecomondomexico.com.mx/"
-  },
-  
-  {
     title: "Smart Technology Expo",
     description: "Marca un hito en la Industria 4.0 en México",
     description_en: "Marks a milestone in Industry 4.0 in Mexico",
@@ -68,7 +47,26 @@ const events = [
     image: "/img/ste_logo.webp",
     link: "https://smarttechnologyexpo.mx/"
   },
-  
+  {
+    title: "RE+ MEXICO",
+    description: "LA FERIA LÍDER EN ENERGÍAS RENOVABLES",
+    description_en: "THE LEADING RENEWABLE ENERGY FAIR",
+    date: "20 al 22 de abril, 2027",
+    date_en: "April 20th - 22nd, 2027",
+    location: "Expo Guadalajara, Guadalajara",
+    image: "/img/icon_replus_2027.webp",
+    link: "https://re-plus-mexico.com.mx/"
+  },
+  {
+    title: "ECOMONDO MEXICO",
+    description: "LA EXPO DE TECNOLOGÍA AMBIENTAL Y ECONOMÍA CIRCULAR",
+    description_en: "THE EXPO OF ENVIRONMENTAL TECHNOLOGY AND CIRCULAR ECONOMY",
+    date: "20 al 22 de abril, 2027",
+    date_en: "April 20th - 22nd, 2027",
+    location: "Expo Guadalajara, Guadalajara",
+    image: "/img/icon_eco_2027.webp",
+    link: "https://ecomondomexico.com.mx/"
+  },
   // {
   //   title: "Industrial Transformation MEXICO",
   //   description: "La Hannover Messe del continente americano.",
