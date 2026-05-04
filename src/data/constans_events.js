@@ -79,6 +79,7 @@ const events = [
 ]
 
 const carouselEvents = [
+  /*
   {
     src: "/img/more-events/amof_event_bg.webp",
     logo: "/img/more-events/logoamof2025.webp",
@@ -120,8 +121,8 @@ const carouselEvents = [
     date_en: "Coming soon, 2027",
     date_fr: "Prochainement, 2027",
     location: "CDMX",
-  },npx astro-i18next generate
-
+  },
+  */
   {
     src: "/img/more-events/hannover_event_bg.webp",
     logo: "/img/more-events/logohannover.webp",
@@ -142,7 +143,6 @@ const carouselEvents = [
     date_en: "April, 2027",
     date_fr: "Avril, 2027",
     location: "Germany",
-
   },
   {
     src: "/img/more-events/ecomondo_event_bg.webp",
