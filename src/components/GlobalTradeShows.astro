@@ -3,7 +3,8 @@ import { changeLanguage, t } from "i18next";
 import Events from "./Events.astro";
 import { events, carouselEvents } from "../data/constans_events";
 
-changeLanguage("es");
+const lang = Astro.url.pathname.startsWith("/en") ? "en" : "es";
+changeLanguage(lang);
 ---
 
 <section class="mt-20">
