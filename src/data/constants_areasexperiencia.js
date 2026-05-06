@@ -33,7 +33,7 @@ export const areasExperiencia = [
       },
       {
         name: "INDUSTRIAL TRANSFORMATION AUSTRALIA",
-        href: "https://www.industrial-transformation.com.au/",
+        href: "https://www.industrialtransformation.com.au/",
       },
       {
         name: "SMART TECHNOLOGY EXPO",
@@ -41,7 +41,7 @@ export const areasExperiencia = [
       },
       {
         name: "LASERFAIR Shenzen",
-        href: "https://www.laserfair.cn/index.php?lang=en/",
+        href: "https://www.laserfair.cn/index.php?lang=en",
       },
       {
         name: "LIGNA",
@@ -127,7 +127,7 @@ export const areasExperiencia = [
     links: [      
       {
         name: "Automechanika ISTANBUL ",
-        href: "https://automechanika-istanbul.tr.messefrankfurt.com/istanbul/en.html/",
+        href: "https://automechanika-istanbul.tr.messefrankfurt.com/istanbul/en.html",
       },
       {
         name: "Caravan Bremen",
@@ -251,7 +251,7 @@ export const areasExperiencia = [
       },
       {
         name: "SUMMIT DEL GIOIELLO ITALIANO",
-        href: "https://www.oroarezzo.it/en/summit-gioiello-italiano/",
+        href: "https://www.oroarezzo.it/it/oltre-oroarezzo/summit-gioiello-italiano",
       },
       {
         name: "VICEZAORO",
@@ -259,7 +259,7 @@ export const areasExperiencia = [
       },
       {
         name: "VO’CLOCK PRIVÉ",
-        href: "https://www.vicenzaoro.com/en/vo-clock/",
+        href: "https://www.vicenzaoro.com/en/vo-clock",
       },
     ],
   },
@@ -277,7 +277,7 @@ export const areasExperiencia = [
       },
       {
         name: "CeMAT ASIA",
-        href: "https://www.cemat-asia.com/index-en.html/",
+        href: "https://www.cemat-asia.com/index-en.html",
       },
       {
         name: "CeMAT South East ASIA",
@@ -307,7 +307,7 @@ export const areasExperiencia = [
       },
       {
         name: "Heavy Machinery Asia",
-        href: "https://www.heavymachineryasia.com/index.php?lang=en/",
+        href: "https://www.heavymachineryasia.com/index.php?lang=en",
       },
       {
         name: "Metalworking and CNC Machine Tool Show",
