@@ -1,5 +1,5 @@
 ---
-import { changeLanguage, t } from "i18next";
+import i18next, { changeLanguage, t } from "i18next";
 import Events from "../components/Events.astro";
 import Card from "../components/shared/Card.astro";
 import Welcome from "../components/Welcome.astro";
@@ -13,11 +13,12 @@ import HomePopup from "../components/HomePopup.jsx";
 import GlobalTradeShows from "../components/GlobalTradeShows.astro";
 
 changeLanguage("es");
----
 
+const currentLanguage = i18next.language;
+---
 <Layout>
   <main>
-    <!-- <HomePopup client:load /> -->
+    <HomePopup language={currentLanguage} client:load />
     <Welcome />
 
     <!-- Events Section -->
