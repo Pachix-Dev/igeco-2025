@@ -11,43 +11,43 @@ const currentLanguage = i18next.language;
 <Layout>
   <main class='min-h-screen'>
     <!-- Hero Section -->
-    <section class='relative bg-[#06439C] py-10 px-4 overflow-hidden'>
+    <section class='relative bg-[#06439C] px-4 py-12 sm:px-6 sm:py-16 lg:py-20 overflow-hidden'>
       <!-- Decorative background elements -->
       <div class='absolute inset-0 bg-gradient-to-r from-[#06439C] via-[#355282] to-[#06439C] opacity-90'></div>
-      <div class='container mx-auto text-center relative z-10'>
-        <div class='mb-8'>
-          <span class='inline-block bg-white/10 backdrop-blur-sm px-8 rounded-full text-xl p-2 font-semibold tracking-widest text-white border border-white/20'>
+      <div class='relative z-10 mx-auto max-w-6xl text-center'>
+        <div class='mb-6 sm:mb-8'>
+          <span class='inline-flex max-w-full items-center justify-center rounded-full bg-white/10 px-4 py-2 text-sm font-semibold tracking-[0.18em] text-white border border-white/20 backdrop-blur-sm sm:px-8 sm:text-xl sm:tracking-widest'>
             Deutsche Messe
           </span>
         </div>
-        <h1 class='text-5xl md:text-7xl font-black mb-8 leading-tight text-white drop-shadow-lg'>
+        <h1 class='mb-5 text-4xl font-black leading-tight text-white drop-shadow-lg sm:mb-8 sm:text-5xl md:text-6xl lg:text-7xl'>
           {t('AboutUs.title')}
         </h1>
         <div class='max-w-4xl mx-auto'>
-          <p class='text-xl md:text-2xl leading-relaxed text-white/95 font-light' set:html={t('AboutUs.text')} />
+          <p class='text-base leading-relaxed text-white/95 font-light sm:text-lg md:text-xl lg:text-2xl' set:html={t('AboutUs.text')} />
         </div>
       </div>
     </section>
 
     <!-- Team Section -->
-    <section class='container mx-auto px-4 py-20'>
-      <div class='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-12 max-w-6xl mx-auto'>
+    <section class='mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16 lg:py-20'>
+      <div class='grid grid-cols-1 gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3'>
         {
           constans_persons.map((person) => (
-            <div>
+            <div class='mx-auto w-full max-w-80'>
               <div class='flex justify-center mb-4'>
                 <img
                   src={person.image}
                   alt={person.name}
-                  class='w-32 h-32 sm:w-48 sm:h-48 md:w-48 md:h-48 rounded-full shadow-lg object-cover object-top'
+                  class='h-36 w-36 rounded-full object-cover object-top shadow-lg sm:h-44 sm:w-44 md:h-48 md:w-48'
                 />
               </div>
               
               <div class='text-center'>
-                <h3 class='text-2xl font-bold text-[#355282] mb-2'>
+                <h3 class='mb-2 text-xl font-bold text-[#355282] sm:text-2xl'>
                   {person.name}
                 </h3>
-                <p class='text-gray-600 font-medium text-sm'>
+                <p class='text-sm font-medium leading-relaxed text-gray-600 sm:text-base'>
                   {currentLanguage === 'en'
                     ? person.position_en
                     : person.position}

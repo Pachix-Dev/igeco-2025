@@ -8,12 +8,6 @@ export const constans_persons = [
     image: "/img/BERND-ICON.webp",
   },
   {
-    name: "Manuel Ferreira",
-    position_en: "CFO IGECO Mexico",
-    position: "CFO IGECO Mexico",
-    image: "/img/manuelferreira.webp",
-  },
-  {
     name: "Rodolfo Carrizales",
     position_en: "Director of Finances and Human Resources",
     position: "Director de Finanzas y Recursos Humanos",
