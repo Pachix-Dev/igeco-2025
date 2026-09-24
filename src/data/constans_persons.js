@@ -22,8 +22,8 @@ export const constans_persons = [
   
   {
     name: "Samuel Ramírez",
-    position_en: "Director of RE+ and ECOMONDO",
-    position: "Director de RE+ y ECOMONDO",
+    position_en: "Director of RE+ MEXICO and ECOMONDO MEXICO",
+    position: "Director de RE+ MEXICO y ECOMONDO MEXICO",
     image: "/img/samuel-ramirez.webp",
   },
   {
