@@ -21,7 +21,7 @@ const events = [
   },
   {
     title: "AMERICAS’  Mobility of the Future",
-    description: "Encuentra las soluciónes para la movilidad del futuro en ECOMONDO MÉXICO",
+    description: "Encuentra las soluciónes para la movilidad del futuro en ECOMONDO MEXICO",
     description_en: "Forum & Summit, driving the development of future mobility.",
     date: "14 al 16 de abril, 2026",
     location: "Expo Guadalajara, Guadalajara",
@@ -150,7 +150,7 @@ const carouselEvents = [
     width: 250,
     alt: "ECOMONDO",
     link: "https://en.ecomondo.com/",
-    title: "ECOMONDO RIMINI",
+    title: "ECOMONDO RÍMINI",
     subtitle: "Plataforma global para la economía verde y circular",
     subtitle_en: "Global platform for the green and circular economy",
     subtitle_fr: "Plateforme mondiale pour l'économie verte et circulaire",
@@ -218,9 +218,9 @@ const carouselEvents = [
     subtitle_en: "Go Through: The Wellness Experience",
     subtitle_fr: "Go Through : L'expérience bien-être",
     description:
-      "La reunión más grande del mundo dedicada a la actividad física, el bienestar, el deporte, la cultura física y la alimentación saludable. Su 20ª edición reúne bajo un mismo techo a fabricantes de equipamiento, gimnasios, centros de salud, nutrición deportiva y las últimas tendencias del fitness en Rimini Expo Centre y la Riviera.",
+      "La reunión más grande del mundo dedicada a la actividad física, el bienestar, el deporte, la cultura física y la alimentación saludable. Su 20ª edición reúne bajo un mismo techo a fabricantes de equipamiento, gimnasios, centros de salud, nutrición deportiva y las últimas tendencias del fitness en Rímini Expo Centre y la Riviera.",
     description_en:
-      "The world's largest gathering dedicated to physical activity, wellness, sport, physical culture and healthy eating. Its 20th edition brings together under one roof equipment manufacturers, gyms, health centers, sports nutrition and the latest fitness trends at Rimini Expo Centre and the Riviera.",
+      "The world's largest gathering dedicated to physical activity, wellness, sport, physical culture and healthy eating. Its 20th edition brings together under one roof equipment manufacturers, gyms, health centers, sports nutrition and the latest fitness trends at Rímini Expo Centre and the Riviera.",
     description_fr:
       "Le plus grand rassemblement mondial dédié à l'activité physique, au bien-être, au sport, à la culture physique et à l'alimentation saine. Sa 20e édition réunit sous un même toit fabricants d'équipements, salles de sport, centres de santé, nutrition sportive et les dernières tendances fitness.",
     date: "Mayo, 2026",
@@ -260,7 +260,7 @@ const carouselEvents = [
     subtitle_en: "The future of energy meets at KEY",
     subtitle_fr: "Le futur de l'énergie se réunit à KEY",
     description:
-      "La feria de referencia de IEG-Italian Exhibition Group para la transición energética en Europa, África y la cuenca mediterránea. Se celebra en Rimini Expo Centre y abarca siete sectores: solar, eólica, almacenamiento, hidrógeno, eficiencia energética, movilidad eléctrica y ciudades sostenibles.",
+      "La feria de referencia de IEG-Italian Exhibition Group para la transición energética en Europa, África y la cuenca mediterránea. Se celebra en Rímini Expo Centre y abarca siete sectores: solar, eólica, almacenamiento, hidrógeno, eficiencia energética, movilidad eléctrica y ciudades sostenibles.",
     description_en:
       "The IEG-Italian Exhibition Group reference event for energy transition in Europe, Africa and the Mediterranean basin. Held at Rimini Expo Centre, it covers seven sectors: solar, wind, storage, hydrogen, energy efficiency, electric mobility and sustainable cities.",
     description_fr:
