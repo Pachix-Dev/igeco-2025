@@ -64,7 +64,7 @@ const events = [
     date: "20 al 22 de abril, 2027",
     date_en: "April 20th - 22nd, 2027",
     location: "Expo Guadalajara, Guadalajara",
-    image: "/img/icon_eco_2027.webp",
+    image: "/img/icon_ecomondo_2027.webp",
     link: "https://ecomondomexico.com.mx/"
   },
   // {
