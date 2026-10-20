@@ -17,7 +17,13 @@
     },
     "footer": {
         "privacy": "Aviso de privacidad",
-        "contact": "Contacto"
+        "contact": "Contacto",
+        "home": "Ir al inicio",
+        "navigation": "Explora IGECo",
+        "address": "Blvd. Francisco Villa 102, piso 14",
+        "location": "León, Guanajuato, México",
+        "directions": "Cómo llegar",
+        "map_title": "Ubicación de las oficinas de IGECo Mexico"
     },
     "home": {
         "itm": "11 - 13 de noviembre de 2025",

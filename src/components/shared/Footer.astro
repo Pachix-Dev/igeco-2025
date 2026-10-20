@@ -1,35 +1,106 @@
-<footer class='container mx-auto px-4 py-5'>
-  <div class='bg-[#06439C] py-3'>
-    <div class='flex justify-center'>
-      <img
-        src='/img/igecoLogo.webp'
-        alt='Italian German Exhibition Company Logo'
-        class='mb-5 w-auto h-20'
-      />
+---
+import { t } from 'i18next';
+
+const base = /^\/en(?:\/|$)/.test(Astro.url.pathname) ? '/en' : '';
+const year = new Date().getFullYear();
+const navigation = [
+  { label: t('menu.item_1.dropdown_1'), href: '/nuestra-historia' },
+  { label: t('menu.item_1.dropdown_3'), href: '/nosotros' },
+  { label: t('menu.item_1.dropdown_4'), href: '/areas-de-experiencia' },
+];
+const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent('Italian German Exhibition Company Mexico, Blvd. Francisco Villa 102, León, Guanajuato')}`;
+---
+
+<footer class='mt-12 bg-[#06439C] text-slate-200 sm:mt-16'>
+  <div class='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
+    <div class='grid gap-6 py-8 md:grid-cols-3 md:gap-8 md:py-10'>
+      <div class='min-w-0'>
+        <a
+          href={`${base}/`}
+          aria-label={t('footer.home')}
+          class='inline-flex min-h-11 max-w-full items-center focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white'
+        >
+          <img
+            src='/img/igecoLogo.webp'
+            alt='Italian Exhibition Group · Deutsche Messe'
+            width='1332'
+            height='248'
+            class='h-auto w-64 max-w-full'
+            loading='lazy'
+            decoding='async'
+          />
+        </a>
+        <p class='mt-4 max-w-64 text-sm leading-6'>
+          Italian German Exhibition Company Mexico
+        </p>
+      </div>
+
+      <nav aria-label={t('footer.navigation')} class='min-w-0'>
+        <h2 class='text-sm font-semibold text-white'>
+          {t('footer.navigation')}
+        </h2>
+        <ul class='mt-2'>
+          {
+            navigation.map(({ label, href }) => (
+              <li>
+                <a
+                  href={`${base}${href}`}
+                  class='inline-flex min-h-11 items-center py-2 text-sm underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white'
+                >
+                  {label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+
+      <section aria-label={t('footer.contact')} class='min-w-0'>
+        <h2 class='text-sm font-semibold text-white'>
+          {t('footer.contact')}
+        </h2>
+        <address class='mt-2 text-sm leading-6 not-italic'>
+          <p>
+            {t('footer.address')}<br />
+            Col. Oriental, 37510<br />
+            {t('footer.location')}
+          </p>
+          <a
+            href='mailto:info@igeco.mx'
+            class='inline-flex min-h-11 items-center underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white'
+          >
+            info@igeco.mx
+          </a>
+        </address>
+        <iframe
+          src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d59551.61759992051!2d-101.654091!3d21.113519!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbf498c5bc1fb%3A0x86fa719e9f9cf16!2sITALIAN%20GERMAN%20EXHIBITION%20COMPANY%20M%C3%89XICO!5e0!3m2!1ses!2smx!4v1748316196610!5m2!1ses!2smx'
+          title={t('footer.map_title')}
+          width='400'
+          height='192'
+          class='mt-3 block h-48 w-full border-0'
+          allowfullscreen
+          loading='lazy'
+          referrerpolicy='no-referrer-when-downgrade'
+        />
+        <a
+          href={mapUrl}
+          target='_blank'
+          rel='noopener noreferrer'
+          class='inline-flex min-h-11 items-center text-sm underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white'
+        >
+          {t('footer.directions')}
+        </a>
+      </section>
     </div>
-  </div>
-  <div class='mt-5 grid md:flex gap-5 justify-center items-center'>
-    <p class='text-xl'>
-      <strong>IGECo</strong>
-      <br />
-      Blvd. Francisco Villa 102, piso 14 <br />
-      Col Oriental, 37510 León Guanajuato, México <br />
-      <a href='mailto:info@igeco.mx' target='_blank'>info@igeco.mx</a>
-    </p>
-    <iframe
-      src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d59551.61759992051!2d-101.654091!3d21.113519!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbf498c5bc1fb%3A0x86fa719e9f9cf16!2sITALIAN%20GERMAN%20EXHIBITION%20COMPANY%20M%C3%89XICO!5e0!3m2!1ses!2smx!4v1748316196610!5m2!1ses!2smx'
-      class='w-full h-64 md:h-96'
-      style='border:0;'
-      allowfullscreen=''
-      loading='lazy'
-      referrerpolicy='no-referrer-when-downgrade'></iframe>
-  </div>
-  <div
-    class='border-y-2 border-black py-5 text-center text-black font-bold text-xl'
-  >
-    Italian German Exhibition Company Mexico
-  </div>
-  <div>
-    <a href='/aviso-de-privacidad'>Aviso de privacidad</a>
+
+    <div class='flex flex-col gap-2 border-t border-white/20 py-4 text-xs leading-6 sm:flex-row sm:items-center sm:justify-between sm:gap-6'>
+      <p>© {year} Italian German Exhibition Company Mexico.</p>
+      <a
+        href={`${base}/aviso-de-privacidad`}
+        class='inline-flex min-h-11 w-fit shrink-0 items-center underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white'
+      >
+        {t('footer.privacy')}
+      </a>
+    </div>
   </div>
 </footer>
