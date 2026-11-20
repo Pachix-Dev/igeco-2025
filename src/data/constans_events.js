@@ -38,16 +38,6 @@ const events = [
     link: "https://drone.igeco.mx/"
   }*/
   {
-    title: "Smart Technology Expo",
-    description: "Marca un hito en la Industria 4.0 en México",
-    description_en: "Marks a milestone in Industry 4.0 in Mexico",
-    date: "18 al 20 de noviembre, 2026",
-    date_en: "November 18th - 20th, 2026",
-    location: "Expo Guadalajara, Guadalajara",
-    image: "/img/ste_logo.webp",
-    link: "https://smarttechnologyexpo.mx/"
-  },
-  {
     title: "RE+ MEXICO",
     description: "LA FERIA LÍDER EN ENERGÍAS RENOVABLES",
     description_en: "THE LEADING RENEWABLE ENERGY FAIR",
@@ -66,6 +56,16 @@ const events = [
     location: "Expo Guadalajara, Guadalajara",
     image: "/img/icon_ecomondo_2027.webp",
     link: "https://ecomondomexico.com.mx/"
+  },
+  {
+    title: "Smart Technology Expo",
+    description: "Marca un hito en la Industria 4.0 en México",
+    description_en: "Marks a milestone in Industry 4.0 in Mexico",
+    date: "18 al 20 de noviembre, 2026",
+    date_en: "November 18th - 20th, 2026",
+    location: "Expo Guadalajara, Guadalajara",
+    image: "/img/ste_2027_v2.webp",
+    link: "https://smarttechnologyexpo.mx/"
   },
   // {
   //   title: "Industrial Transformation MEXICO",

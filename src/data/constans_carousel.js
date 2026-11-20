@@ -13,8 +13,8 @@ export const carouselhome = [
             link: 'https://re-plus-mexico.com.mx' 
         },
         { 
-            image: '/img/ste_banner_es.webp', 
-            image_en: '/img/ste_banner_en.webp',
+            image: '/img/ste_2027.webp', 
+            image_en: '/img/ste_2027.webp',
             alt: 'Smart Technology Expo 2026', 
             link: 'https://smarttechnologyexpo.mx/' 
         },
