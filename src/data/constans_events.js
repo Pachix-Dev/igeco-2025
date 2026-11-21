@@ -61,8 +61,8 @@ const events = [
     title: "Smart Technology Expo",
     description: "Marca un hito en la Industria 4.0 en México",
     description_en: "Marks a milestone in Industry 4.0 in Mexico",
-    date: "18 al 20 de noviembre, 2026",
-    date_en: "November 18th - 20th, 2026",
+    date: "17 al 19 de noviembre, 2027",
+    date_en: "November 17th - 19th, 2027",
     location: "Expo Guadalajara, Guadalajara",
     image: "/img/ste_2027_v2.webp",
     link: "https://smarttechnologyexpo.mx/"
